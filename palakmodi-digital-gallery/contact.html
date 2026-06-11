@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Palak Modi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { fontFamily: { sans: ['"Inter"', 'sans-serif'], serif: ['"Playfair Display"', 'serif'] }, colors: { background: '#fafafa', foreground: '#111111', muted: { foreground: '#666666' }, 'foreground-secondary': '#444444' } } }
+    }
+  </script>
+  <link rel="stylesheet" href="css/system.css" />
+</head>
+
+<body class="bg-background text-foreground antialiased font-sans">
+
+  <header class="site-header">
+    <a href="index.html" class="logo">Palak Modi</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="work.html">Work</a>
+      <a href="texts.html">Texts</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="work.html">Work</a>
+    <a href="texts.html">Texts</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main class="pt-32 pb-36 px-6 md:px-12 min-h-screen flex flex-col justify-center max-w-5xl mx-auto">
+    <h1 class="fade-up font-sans text-2xl md:text-3xl font-normal uppercase tracking-[0.3em] mb-20">Contact</h1>
+
+    <div class="space-y-10 max-w-md">
+      <div class="reveal">
+        <p class="text-xs tracking-widest uppercase text-foreground-secondary mb-3">Email</p>
+        <a href="mailto:palakvmodi1610@gmail.com"
+          class="text-lg md:text-xl text-foreground transition-opacity duration-500 hover:opacity-50">palakvmodi1610@gmail.com</a>
+      </div>
+
+      <div class="reveal">
+        <p class="text-xs tracking-widest uppercase text-foreground-secondary mb-3">Studio</p>
+        <p class="text-lg md:text-xl text-foreground">New Delhi, India</p>
+      </div>
+
+      <div class="reveal pt-4">
+        <p class="text-xs tracking-widest uppercase text-foreground-secondary mb-3">Social</p>
+        <div class="flex flex-col gap-3">
+          <a href="https://www.instagram.com/_palakmodi/"
+            class="flex items-center gap-3 text-lg md:text-xl text-foreground transition-opacity duration-500 hover:opacity-50 w-fit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+              <path d="M16.11 7.66h.01" />
+              <path d="M12 15.33A3.33 3.33 0 1 0 12 8.67a3.33 3.33 0 0 0 0 6.66Z" />
+            </svg>
+            Instagram
+          </a>
+
+          <a href="https://www.linkedin.com/in/palak-modi-993737239/"
+            class="flex items-center gap-3 text-lg md:text-xl text-foreground transition-opacity duration-500 hover:opacity-50 w-fit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect width="4" height="12" x="2" y="9" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            LinkedIn
+          </a>
+
+          <a href="https://www.linkedin.com/in/palak-modi-993737239/"
+            class="flex items-center gap-3 text-lg md:text-xl text-foreground transition-opacity duration-500 hover:opacity-50 w-fit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </svg>
+            Facebook
+          </a>
+
+          <a href="https://x.com/palakmodi163?lang=es"
+            class="flex items-center gap-3 text-lg md:text-xl text-foreground transition-opacity duration-500 hover:opacity-50 w-fit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+              <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+            </svg>
+            X
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer
+    class="w-full mt-10 md:mt-20 py-12 px-6 md:px-12 lg:px-20 flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-foreground-secondary tracking-wide border-t border-secondary/50">
+    <div class="font-sans text-sm uppercase tracking-[0.2em] text-foreground">Palak Modi</div>
+    <div class="flex gap-6 uppercase tracking-[0.15em] text-[10px] md:text-xs">
+      <a href="https://instagram.com" target="_blank"
+        class="flex items-center gap-2 hover:text-foreground transition-colors duration-500">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+          <path d="M16.11 7.66h.01" />
+          <path d="M12 15.33A3.33 3.33 0 1 0 12 8.67a3.33 3.33 0 0 0 0 6.66Z" />
+        </svg>
+        Instagram
+      </a>
+      <a href="mailto:hello@palakmodi.com"
+        class="flex items-center gap-2 hover:text-foreground transition-colors duration-500">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="16" x="2" y="4" rx="2" />
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+        </svg>
+        Email
+      </a>
+    </div>
+    <div class="uppercase tracking-widest text-[9px] opacity-60">© 2026. All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

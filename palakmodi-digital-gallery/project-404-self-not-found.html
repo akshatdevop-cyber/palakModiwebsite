@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404: Self Not Found — Palak Modi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { fontFamily: { sans: ['"Inter"', 'sans-serif'], serif: ['"Playfair Display"', 'serif'] }, colors: { background: '#fafafa', foreground: '#111111', muted: { foreground: '#666666' }, 'foreground-secondary': '#444444' } } }
+    }
+  </script>
+  <link rel="stylesheet" href="css/system.css" />
+</head>
+
+<body class="bg-background text-foreground antialiased font-sans">
+
+  <header class="site-header">
+    <a href="index.html" class="logo">Palak Modi</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="work.html" class="active">Work</a>
+      <a href="texts.html">Texts</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="work.html">Work</a>
+    <a href="texts.html">Texts</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main class="pt-32 pb-12">
+    <!-- Back Button -->
+    <div class="px-6 md:px-12 mb-8 fade-up">
+      <a href="work.html"
+        class="inline-flex items-center gap-2 text-xs uppercase tracking-[0.15em] text-muted-foreground hover:text-foreground transition-colors duration-300">
+        <span></span> Back to Work
+      </a>
+    </div>
+
+    <!-- Header + Tab Nav -->
+    <section class="px-6 md:px-12 pb-16 fade-up">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
+        <div>
+          <h1 class="font-sans text-2xl md:text-3xl lg:text-4xl font-normal uppercase tracking-[0.25em] leading-[1.08]">
+            404: Self Not Found</h1>
+          <div class="mt-4 text-muted-foreground text-sm space-y-1">
+            <p>Solo Exhibition</p>
+            <p>Pulp Society, Okhla</p>
+            <p>1 February 20 March 2026</p>
+          </div>
+        </div>
+
+        <nav class="tab-nav flex gap-6 md:gap-8 overflow-x-auto pb-1 -mb-1 shrink-0">
+          <button data-tab="overview"
+            class="tab-btn active text-[11px] uppercase tracking-[0.18em] whitespace-nowrap pb-1 transition-all duration-500 border-b text-foreground border-foreground/40">Overview</button>
+          <button data-tab="works"
+            class="tab-btn text-[11px] uppercase tracking-[0.18em] whitespace-nowrap pb-1 transition-all duration-500 border-b text-muted-foreground border-transparent hover:text-foreground/70">Works</button>
+          <button data-tab="installation"
+            class="tab-btn text-[11px] uppercase tracking-[0.18em] whitespace-nowrap pb-1 transition-all duration-500 border-b text-muted-foreground border-transparent hover:text-foreground/70">Installation
+            Views</button>
+        </nav>
+      </div>
+    </section>
+
+    <!-- â•â•â• OVERVIEW TAB â•â•â• -->
+    <section id="tab-overview" class="tab-content px-6 md:px-12 pb-12">
+      <div class="flex flex-col md:flex-row gap-12 md:gap-16 items-start">
+        <div class="w-full md:w-[40%] space-y-7 md:pt-4">
+          <p class="reveal text-muted-foreground leading-[1.85] text-base">The exhibition 404: Self Not Found
+            investigates the dissonance between lived experience and its digital representation. Through mixed media
+            works that layer hand-stitched interventions over printed data sequences and mechanical grids, the
+            exhibition traces how the self is continuously fragmented, quantified, and reassembled by the systems it
+            inhabits.</p>
+          <p class="reveal text-muted-foreground leading-[1.85] text-base">The stitched plus sign—borrowed from digital
+            interfaces where it signifies addition, connection, and expansion—is reclaimed here as a gesture of repair.
+            Each hand-stitched mark becomes an act of resistance against the speed and abstraction of digital logic,
+            reintroducing the body, its labour, and its vulnerability into a landscape increasingly governed by
+            automation.</p>
+          <p class="reveal text-muted-foreground leading-[1.85] text-base">The works oscillate between control and
+            collapse, between the grid's promise of order and the organic ruptures that refuse containment. In this
+            tension, the exhibition asks: what remains of the self when identity is reduced to data points? And can the
+            slow, deliberate act of making offer a way back toward agency?</p>
+        </div>
+        <div class="w-full md:w-[60%] overflow-hidden reveal">
+          <img src="public/slider10-medium.webp" data-large="public/slider10-large.webp" srcset="public/slider10-thumbnail.webp 400w, public/slider10-medium.webp 1200w, public/slider10-large.webp 2048w" sizes="(max-width: 768px) 100vw, 33vw" alt="404: Self Not Found — installation"
+            class="w-full max-h-[75vh] aspect-[3/2] object-cover transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] hover:scale-[1.03]" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ WORKS TAB ═══ -->
+    <section id="tab-works" class="tab-content hidden px-6 md:px-12 pb-12">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 md:gap-8">
+
+        <!-- Collage: Algorithmic Flesh, (9x11in) -->
+        <div class="space-y-3 reveal collage-card" data-collage="algorithmic-flesh" data-title="Algorithmic Flesh"
+          data-desc="Mixed Media on Sandpaper
+9 x 11 inches" style="cursor:pointer;">
+          <div class="overflow-hidden"><img data-no-lightbox
+              src="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Algorithmic Flesh, (9x11in)/cover1.jpeg"
+              alt="Algorithmic Flesh, (9x11in)" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Algorithmic Flesh</p>
+        </div>
+
+        <!-- Collage: Canvas -->
+        <div class="space-y-3 reveal collage-card" data-collage="canvas" data-title="Distributed Presence" data-desc="Acrylic on Canvas
+48 x 6 inches approx. (each)" style="cursor:pointer;">
+          <div class="overflow-hidden"><img data-no-lightbox
+              src="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp" data-large="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp" srcset="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-thumbnail.webp 400w, public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp 1200w, public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp 2048w" sizes="(max-width: 768px) 100vw, 33vw" alt="Canvas"
+              loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Distributed Presence</p>
+        </div>
+
+        <!-- Collage: Overlaid -->
+        <div class="space-y-3 reveal collage-card" data-collage="collage-404-1" data-title="Overlaid (set of 5)"
+          data-desc="Metal Crystals on Mirror
+7 x 7 inches each" style="cursor:pointer;">
+          <div class="overflow-hidden"><img data-no-lightbox
+              src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-1/cover4-large.webp' alt="Overlaid"
+              loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Overlaid</p>
+        </div>
+
+        <!-- Collage: Coexisting Selves -->
+        <div class="space-y-3 reveal collage-card" data-collage="collage-404-2" data-title="Coexisting Selves"
+          data-desc="Laser Cutting on Wood Board
+6 x 8 inches" style="cursor:pointer;">
+          <div class="overflow-hidden"><img data-no-lightbox
+              src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/cover3-large.webp'
+              alt="Coexisting Selves" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Coexisting Selves</p>
+        </div>
+
+        <!-- Individual Artworks: Sandpaper (9x11 in) -->
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Break in Protocol.jpg"
+              alt="Break in Protocol" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Break in Protocol" data-desc="Mixed Media on Sandpaper
+9 x 11 inches" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Break in Protocol</p>
+        </div>
+
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Code and Cortex.jpg"
+              alt="Code and Cortex" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Code and Cortex" data-desc="Mixed Media on Sandpaper
+9 x 11 inches" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Code and Cortex</p>
+        </div>
+
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Confluence.jpg"
+              alt="Confluence" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Confluence" data-desc="Mixed Media on Sandpaper
+9 x 11 inches" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Confluence</p>
+        </div>
+
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Neurogrid.jpg"
+              alt="Neurogrid" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Neurogrid" data-desc="Mixed Media on Sandpaper
+9 x 11 inches" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Neurogrid</p>
+        </div>
+
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Self in Dissolution.jpg"
+              alt="Self in Dissolution" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Self in Dissolution" data-desc="Mixed Media on Sandpaper
+9 x 11 inches" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Self in Dissolution</p>
+        </div>
+
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Sequence of Fading.jpg"
+              alt="Sequence of Fading" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Sequence of Fading" data-desc="Mixed Media on Sandpaper
+9 x 11 inches" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Sequence of Fading</p>
+        </div>
+
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Signal Repair.jpg"
+              alt="Signal Repair" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Signal Repair" data-desc="Mixed Media on Sandpaper
+9 x 11 inches" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Signal Repair</p>
+        </div>
+
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Silent Friction.jpg"
+              alt="Silent Friction" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Silent Friction" data-desc="Mixed Media on Sandpaper
+9 x 11 inches" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Silent Friction</p>
+        </div>
+
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Threshold of Care.jpg"
+              alt="Threshold of Care" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Threshold of Care" data-desc="Mixed Media on Sandpaper
+9 x 11 inches" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Threshold of Care</p>
+        </div>
+
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src="public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Vestige.jpg"
+              alt="Vestige" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Vestige" data-desc="Mixed Media on Sandpaper
+9 x 11 inches" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Vestige</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══ INSTALLATION VIEWS TAB ═══ -->
+    <section id="tab-installation" class="tab-content hidden px-6 md:px-12 pb-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05980-large.webp'
+              alt="Installation view"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+              data-title="Installation View" data-desc="Installation detail">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05942-large.webp'
+              alt="Installation view"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+              data-title="Installation View" data-desc="Installation detail">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05949-large.webp'
+              alt="Installation view"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+              data-title="Installation View" data-desc="Installation detail">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05960-large.webp'
+              alt="Installation view"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+              data-title="Installation View" data-desc="Installation detail">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05967-large.webp'
+              alt="Installation view"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+              data-title="Installation View" data-desc="Installation detail">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05969-large.webp'
+              alt="Installation view"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+              data-title="Installation View" data-desc="Installation detail">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05995-Pano-large.webp'
+              alt="Installation view"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+              data-title="Installation View" data-desc="Installation detail">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06016-large.webp'
+              alt="Installation view"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+              data-title="Installation View" data-desc="Installation detail">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06022-large.webp'
+              alt="Installation view"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+              data-title="Installation View" data-desc="Installation detail">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06029-large.webp'
+              alt="Installation view"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+              data-title="Installation View" data-desc="Installation detail">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06070-large.webp'
+              alt="Installation view"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+              data-title="Installation View" data-desc="Installation detail">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06077-large.webp'
+              alt="Installation view"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+              data-title="Installation View" data-desc="Installation detail">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer
+    class="w-full mt-10 md:mt-20 py-12 px-6 md:px-12 lg:px-20 flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-foreground-secondary tracking-wide border-t border-secondary/50">
+    <div class="font-sans text-sm uppercase tracking-[0.2em] text-foreground">Palak Modi</div>
+    <div class="flex gap-6 uppercase tracking-[0.15em] text-[10px] md:text-xs">
+      <a href="https://instagram.com" target="_blank"
+        class="flex items-center gap-2 hover:text-foreground transition-colors duration-500">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+          <path d="M16.11 7.66h.01" />
+          <path d="M12 15.33A3.33 3.33 0 1 0 12 8.67a3.33 3.33 0 0 0 0 6.66Z" />
+        </svg>
+        Instagram
+      </a>
+      <a href="mailto:hello@palakmodi.com"
+        class="flex items-center gap-2 hover:text-foreground transition-colors duration-500">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="16" x="2" y="4" rx="2" />
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+        </svg>
+        Email
+      </a>
+    </div>
+    <div class="uppercase tracking-widest text-[9px] opacity-60">Â© 2026. All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Tab switching
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Reset all buttons
+        document.querySelectorAll('.tab-btn').forEach(b => {
+          b.classList.remove('active', 'text-foreground', 'border-foreground/40');
+          b.classList.add('text-muted-foreground', 'border-transparent');
+        });
+        // Activate clicked
+        btn.classList.add('active', 'text-foreground', 'border-foreground/40');
+        btn.classList.remove('text-muted-foreground', 'border-transparent');
+
+        // Switch content
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.add('hidden'));
+        const target = document.getElementById('tab-' + btn.dataset.tab);
+        target.classList.remove('hidden');
+
+        // Re-observe reveals in newly visible tab
+        const obs = new IntersectionObserver((entries) => {
+          entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); obs.unobserve(e.target); } });
+        }, { threshold: 0.15 });
+        target.querySelectorAll('.reveal:not(.is-visible)').forEach(el => obs.observe(el));
+      });
+    });
+  </script>
+
+
+  <!-- Collage Sub-images Modal -->
+  <div id="collage-modal"
+    style="position:fixed;inset:0;z-index:999999;display:flex;align-items:center;justify-content:center;background:rgba(10,10,10,0.92);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);opacity:0;pointer-events:none;transition:opacity 0.45s cubic-bezier(0.4,0,0.2,1);padding:0;flex-direction:column;">
+
+    <!-- Close button -->
+    <button id="collage-modal-close"
+      style="position:absolute;top:1.25rem;right:1.5rem;background:none;border:none;color:rgba(255,255,255,0.6);font-size:2rem;cursor:pointer;z-index:100000;transition:color 0.3s,transform 0.3s;transform:scale(1);line-height:1;"
+      onmouseover="this.style.color='#fff';this.style.transform='scale(1.15)'"
+      onmouseout="this.style.color='rgba(255,255,255,0.6)';this.style.transform='scale(1)'">&times;</button>
+
+    <!-- Image counter -->
+    <div id="collage-counter"
+      style="position:absolute;top:1.5rem;left:50%;transform:translateX(-50%);color:rgba(255,255,255,0.5);font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;font-family:'Inter',sans-serif;z-index:20;transition:opacity 0.3s;">
+    </div>
+
+    <!-- Left arrow -->
+    <button id="collage-prev"
+      style="position:absolute;left:1rem;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);color:rgba(255,255,255,0.6);width:44px;height:44px;border-radius:50%;cursor:pointer;z-index:20;display:flex;align-items:center;justify-content:center;transition:all 0.3s cubic-bezier(0.4,0,0.2,1);backdrop-filter:blur(8px);"
+      onmouseover="this.style.background='rgba(255,255,255,0.12)';this.style.color='#fff';this.style.borderColor='rgba(255,255,255,0.25)'"
+      onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.color='rgba(255,255,255,0.6)';this.style.borderColor='rgba(255,255,255,0.12)'">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 18l-6-6 6-6" />
+      </svg>
+    </button>
+
+    <!-- Right arrow -->
+    <button id="collage-next"
+      style="position:absolute;right:1rem;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);color:rgba(255,255,255,0.6);width:44px;height:44px;border-radius:50%;cursor:pointer;z-index:20;display:flex;align-items:center;justify-content:center;transition:all 0.3s cubic-bezier(0.4,0,0.2,1);backdrop-filter:blur(8px);"
+      onmouseover="this.style.background='rgba(255,255,255,0.12)';this.style.color='#fff';this.style.borderColor='rgba(255,255,255,0.25)'"
+      onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.color='rgba(255,255,255,0.6)';this.style.borderColor='rgba(255,255,255,0.12)'">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 18l6-6-6-6" />
+      </svg>
+    </button>
+
+    <!-- Scroll container -->
+    <div id="collage-scroll-container"
+      style="width:100%;flex:1;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;display:flex;align-items:center;padding:0 3.5rem;scroll-snap-type:x mandatory;scroll-behavior:smooth;margin-top:3.5rem;">
+      <div id="collage-images-inner"
+        style="display:flex;gap:28px;padding:0 calc(50vw - 40%);flex-shrink:0;align-items:center;height:100%;"></div>
+    </div>
+
+    <!-- Dot indicators -->
+    <div id="collage-dots"
+      style="display:flex;gap:8px;justify-content:center;align-items:center;padding:0.5rem 0;z-index:20;flex-shrink:0;">
+    </div>
+
+    <!-- Title & Description -->
+    <div class="lightbox-info"
+      style="width:100%; padding:1rem 2.5rem 1.5rem; transform:none; opacity:1; flex:none; text-align:left; z-index:5; display:block;">
+      <h3 id="collage-modal-title"
+        style="margin-bottom:0.5rem; font-family:'Inter', sans-serif; font-size:1rem; letter-spacing:0.2em; text-transform:uppercase; color:#fff;">
+      </h3>
+      <p id="collage-modal-desc"
+        style="font-size:0.85rem; line-height:1.8; color:rgba(255,255,255,0.6); white-space:pre-wrap;"></p>
+    </div>
+  </div>
+
+  <script>
+    // Enhanced Collage Modal with scroll-driven animations
+    (function () {
+      var basePath = 'public/404-arts-shot/drive-download-20260523T172843Z-3-001/';
+      var collages = {
+        'algorithmic-flesh': {
+          pieces: [
+            basePath + 'Algorithmic Flesh, (9x11in)/cover1.jpeg',
+            basePath + 'Algorithmic Flesh, (9x11in)/IMG_4717.PNG',
+            basePath + 'Algorithmic Flesh, (9x11in)/IMG_4718.PNG',
+            basePath + 'Algorithmic Flesh, (9x11in)/IMG_4720.PNG'
+          ]
+        },
+        'canvas': {
+          pieces: [
+            basePath + 'Canvas/cover2.jpeg',
+            basePath + 'Canvas/DSC05992.jpeg',
+            basePath + 'Canvas/DSC06001.jpeg'
+          ]
+        },
+
+        'collage-404-1': {
+          pieces: [
+            basePath + 'collage 404-1/cover4.jpeg',
+            basePath + 'collage 404-1/DSC06022.jpeg',
+            basePath + 'collage 404-1/DSC06024.jpeg'
+          ]
+        },
+        'collage-404-2': {
+          pieces: [
+            basePath + 'collage 404-2/cover3.jpeg',
+            basePath + 'collage 404-2/DSC05960.jpeg',
+            basePath + 'collage 404-2/DSC06070.jpeg',
+            basePath + 'collage 404-2/WhatsApp Image 2026-05-28 at 7.17.17 PM.jpeg'
+          ]
+        }
+      };
+
+      var modal = document.getElementById('collage-modal');
+      var closeBtn = document.getElementById('collage-modal-close');
+      var imagesInner = document.getElementById('collage-images-inner');
+      var scrollContainer = document.getElementById('collage-scroll-container');
+      var counter = document.getElementById('collage-counter');
+      var dotsContainer = document.getElementById('collage-dots');
+      var prevBtn = document.getElementById('collage-prev');
+      var nextBtn = document.getElementById('collage-next');
+      var currentIndex = 0;
+      var totalImages = 0;
+      var scrollRAF = null;
+
+      // Scroll-driven parallax: scale + opacity based on distance from center
+      function updateScrollEffects() {
+        var imgs = imagesInner.querySelectorAll('img');
+        var containerRect = scrollContainer.getBoundingClientRect();
+        var centerX = containerRect.left + containerRect.width / 2;
+        var closestIdx = 0;
+        var closestDist = Infinity;
+
+        imgs.forEach(function (img, idx) {
+          var rect = img.getBoundingClientRect();
+          var imgCenter = rect.left + rect.width / 2;
+          var dist = Math.abs(imgCenter - centerX);
+          var maxDist = containerRect.width * 0.6;
+          var ratio = Math.min(dist / maxDist, 1);
+
+          // Smooth scale: centered = 1, edges = 0.82
+          var scale = 1 - ratio * 0.18;
+          // Smooth opacity: centered = 1, edges = 0.35
+          var opacity = 1 - ratio * 0.65;
+          // Subtle vertical shift for depth
+          var translateY = ratio * 8;
+
+          img.style.transform = 'scale(' + scale + ') translateY(' + translateY + 'px)';
+          img.style.opacity = opacity;
+
+          if (dist < closestDist) {
+            closestDist = dist;
+            closestIdx = idx;
+          }
+        });
+
+        // Update counter & dots
+        if (closestIdx !== currentIndex) {
+          currentIndex = closestIdx;
+          counter.textContent = (currentIndex + 1) + ' / ' + totalImages;
+          updateDots();
+        }
+
+        scrollRAF = requestAnimationFrame(updateScrollEffects);
+      }
+
+      function updateDots() {
+        var dots = dotsContainer.querySelectorAll('span');
+        dots.forEach(function (dot, i) {
+          if (i === currentIndex) {
+            dot.style.background = 'rgba(255,255,255,0.85)';
+            dot.style.width = '18px';
+          } else {
+            dot.style.background = 'rgba(255,255,255,0.25)';
+            dot.style.width = '6px';
+          }
+        });
+      }
+
+      function createDots(count) {
+        dotsContainer.innerHTML = '';
+        for (var i = 0; i < count; i++) {
+          var dot = document.createElement('span');
+          dot.style.cssText = 'width:6px;height:6px;border-radius:3px;background:rgba(255,255,255,0.25);transition:all 0.35s cubic-bezier(0.4,0,0.2,1);cursor:pointer;';
+          (function (idx) {
+            dot.addEventListener('click', function () { scrollToImage(idx); });
+          })(i);
+          dotsContainer.appendChild(dot);
+        }
+      }
+
+      function scrollToImage(idx) {
+        var imgs = imagesInner.querySelectorAll('img');
+        if (imgs[idx]) {
+          var containerRect = scrollContainer.getBoundingClientRect();
+          var imgRect = imgs[idx].getBoundingClientRect();
+          var offset = imgRect.left - containerRect.left - (containerRect.width / 2) + (imgRect.width / 2);
+          scrollContainer.scrollBy({ left: offset, behavior: 'smooth' });
+        }
+      }
+
+      function openModal(id, title, desc) {
+        var c = collages[id];
+        if (!c) return;
+        var modalTitle = document.getElementById('collage-modal-title');
+        var modalDesc = document.getElementById('collage-modal-desc');
+        if (modalTitle) modalTitle.textContent = title || '';
+        if (modalDesc) modalDesc.textContent = desc || '';
+
+        imagesInner.innerHTML = '';
+        totalImages = c.pieces.length;
+        currentIndex = 0;
+
+        c.pieces.forEach(function (src, i) {
+          var img = document.createElement('img');
+          img.src = src;
+          img.alt = 'Artwork ' + (i + 1);
+          img.style.cssText = 'width:80vw;height:75vh;border-radius:8px;object-fit:contain;flex-shrink:0;scroll-snap-align:center;opacity:0;transform:scale(0.82);transition:opacity 0.6s cubic-bezier(0.4,0,0.2,1),transform 0.6s cubic-bezier(0.4,0,0.2,1);cursor:grab;background-color:#f4f3ef;';
+          img.addEventListener('mousedown', function () { this.style.cursor = 'grabbing'; });
+          img.addEventListener('mouseup', function () { this.style.cursor = 'grab'; });
+          imagesInner.appendChild(img);
+        });
+
+        // Create dots
+        createDots(totalImages);
+        counter.textContent = '1 / ' + totalImages;
+
+        scrollContainer.scrollLeft = 0;
+        modal.style.opacity = '1';
+        modal.style.pointerEvents = 'auto';
+        document.body.style.overflow = 'hidden';
+
+        // Staggered zoom-in entrance
+        var imgs = imagesInner.querySelectorAll('img');
+        imgs.forEach(function (el, idx) {
+          setTimeout(function () {
+            el.style.opacity = '1';
+            el.style.transform = 'scale(1)';
+          }, 120 + idx * 70);
+        });
+
+        // Start scroll-driven effects after entrance animation completes
+        setTimeout(function () {
+          // Remove transition so scroll effects are instant
+          imgs.forEach(function (el) {
+            el.style.transition = 'none';
+          });
+          updateDots();
+          scrollRAF = requestAnimationFrame(updateScrollEffects);
+        }, 120 + totalImages * 70 + 400);
+      }
+
+      function closeModal() {
+        if (scrollRAF) { cancelAnimationFrame(scrollRAF); scrollRAF = null; }
+
+        var imgs = imagesInner.querySelectorAll('img');
+        imgs.forEach(function (el) {
+          el.style.transition = 'opacity 0.3s cubic-bezier(0.4,0,0.2,1),transform 0.3s cubic-bezier(0.4,0,0.2,1)';
+          el.style.opacity = '0';
+          el.style.transform = 'scale(0.92)';
+        });
+        setTimeout(function () {
+          modal.style.opacity = '0';
+          modal.style.pointerEvents = 'none';
+          document.body.style.overflow = '';
+          var modalTitle = document.getElementById('collage-modal-title');
+          var modalDesc = document.getElementById('collage-modal-desc');
+          if (modalTitle) modalTitle.textContent = '';
+          if (modalDesc) modalDesc.textContent = '';
+        }, 200);
+      }
+
+      // Navigation buttons
+      prevBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (currentIndex > 0) scrollToImage(currentIndex - 1);
+      });
+      nextBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (currentIndex < totalImages - 1) scrollToImage(currentIndex + 1);
+      });
+
+      // Card click handlers
+      document.querySelectorAll('.collage-card').forEach(function (card) {
+        card.addEventListener('click', function (e) {
+          e.stopPropagation();
+          var lb = document.querySelector('.gallery-lightbox');
+          if (lb) {
+            lb.classList.remove('active');
+            var limg = lb.querySelector('img');
+            if (limg) limg.src = '';
+          }
+          openModal(this.dataset.collage, this.dataset.title, this.dataset.desc);
+        });
+      });
+
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+      if (modal) {
+        modal.addEventListener('click', function (e) {
+          var isImg = e.target.tagName === 'IMG';
+          var isNav = e.target.closest('#collage-prev') || e.target.closest('#collage-next') || e.target.closest('#collage-modal-close');
+          var isInfo = e.target.closest('.lightbox-info') || e.target.closest('#collage-dots') || e.target.closest('#collage-counter');
+          if (!isImg && !isNav && !isInfo) {
+            closeModal();
+          }
+        });
+      }
+
+      // Keyboard: Escape, Left, Right
+      document.addEventListener('keydown', function (e) {
+        if (modal.style.pointerEvents !== 'auto') return;
+        if (e.key === 'Escape') closeModal();
+        if (e.key === 'ArrowLeft' && currentIndex > 0) { e.preventDefault(); scrollToImage(currentIndex - 1); }
+        if (e.key === 'ArrowRight' && currentIndex < totalImages - 1) { e.preventDefault(); scrollToImage(currentIndex + 1); }
+      });
+    })();
+  </script>
+</body>
+
+</html>

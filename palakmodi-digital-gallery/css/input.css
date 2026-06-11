@@ -1,0 +1,278 @@
+/* =====================================================
+   THEME VARIABLES (DARK CINEMATIC)
+   ===================================================== */
+:root {
+    --bg: #000000c0;
+    --panel: #111216;
+    --panel-soft: #14161b;
+    --border: #24262d;
+    --text: #e6e6eb;
+    --muted: #9a9ca6;
+    --accent: #ffffff;
+}
+
+/* =====================================================
+   BASE
+   ===================================================== */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: radial-gradient(circle at top,
+            #12131a 0%,
+            var(--bg) 60%);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+/* =====================================================
+   PAGE
+   ===================================================== */
+.system-page {
+    max-width: 480px;
+    margin: 0 auto;
+    padding:
+        env(safe-area-inset-top, 24px) 16px env(safe-area-inset-bottom, 36px);
+}
+
+/* =====================================================
+   LABEL
+   ===================================================== */
+.system-label {
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    color: var(--muted);
+    margin-bottom: 14px;
+
+    opacity: 0;
+    transform: translateY(6px);
+    animation: labelIn 0.8s ease forwards;
+}
+
+@keyframes labelIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* =====================================================
+   SYSTEM INPUT PANEL
+   ===================================================== */
+.system-input {
+    background: linear-gradient(180deg,
+            var(--panel-soft),
+            var(--panel));
+    border-radius: 18px;
+    padding: 30px 22px;
+    text-align: center;
+    border: 1px solid var(--border);
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.6),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
+/* =====================================================
+   BREATHING MOTION
+   ===================================================== */
+.breathing {
+    animation: breathe 8s ease-in-out infinite;
+}
+
+@keyframes breathe {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        box-shadow:
+            0 18px 50px rgba(0, 0, 0, 0.55);
+    }
+
+    50% {
+        transform: translateY(-4px);
+        box-shadow:
+            0 26px 80px rgba(0, 0, 0, 0.75);
+    }
+}
+
+/* =====================================================
+   PROMPT
+   ===================================================== */
+.input-prompt {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    color: var(--text);
+}
+
+/* =====================================================
+   UPLOAD BUTTON
+   ===================================================== */
+.upload-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 12px;
+    background: radial-gradient(circle at top,
+            #1b1d24,
+            #14161b);
+    border: 1px solid var(--border);
+    color: var(--accent);
+    cursor: pointer;
+
+    transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease,
+        background 0.15s ease;
+}
+
+.upload-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.upload-btn input {
+    display: none;
+}
+
+/* =====================================================
+   PROCESSING
+   ===================================================== */
+.processing {
+    margin-top: 18px;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    animation: pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 0.35;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+/* =====================================================
+   OUTPUT
+   ===================================================== */
+.output {
+    margin-top: 26px;
+    opacity: 0;
+    transform: translateY(14px) scale(0.97);
+    transition:
+        opacity 0.6s ease,
+        transform 0.6s ease;
+}
+
+.output.show {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* =====================================================
+   OUTPUT CANVAS
+   ===================================================== */
+#outputCanvas {
+    width: min(400px, 100%);
+    aspect-ratio: 1 / 1;
+    background: #0e0f14;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+}
+
+/* =====================================================
+   STATUS TEXT
+   ===================================================== */
+.system-status {
+    margin: 18px 0;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    opacity: 0;
+    animation: statusFade 0.8s ease forwards;
+}
+
+@keyframes statusFade {
+    to {
+        opacity: 1;
+    }
+}
+
+/* =====================================================
+   BUTTONS
+   ===================================================== */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 12px 22px;
+    border-radius: 9px;
+    border: 1px solid var(--border);
+    background: #14161b;
+    color: var(--text);
+    cursor: pointer;
+
+    transition:
+        background 0.15s ease,
+        transform 0.15s ease;
+}
+
+button:hover {
+    background: #1a1c22;
+    transform: translateY(-1px);
+}
+
+button:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
+
+/* =====================================================
+   SYSTEM VIEW
+   ===================================================== */
+.system-view {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 72px;
+    text-align: center;
+    opacity: 0.85;
+}
+
+#systemViewCanvas {
+    width: 100%;
+    height: auto;
+    background: #0d0e13;
+    border-radius: 18px;
+    border: 1px solid var(--border);
+}
+
+/* =====================================================
+   VIEW NOTE
+   ===================================================== */
+.view-note {
+    margin-top: 12px;
+    font-size: 12px;
+    color: var(--muted);
+}
+
+/* =====================================================
+   SAFE HIDE (NO display:none)
+   ===================================================== */
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}

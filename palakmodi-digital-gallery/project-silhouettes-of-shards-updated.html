@@ -1,0 +1,862 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silhouettes of Shards — Palak Modi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { fontFamily: { sans: ['"Inter"', 'sans-serif'], serif: ['"Playfair Display"', 'serif'] }, colors: { background: '#fafafa', foreground: '#111111', muted: { foreground: '#666666' }, 'foreground-secondary': '#444444' } } }
+    }
+  </script>
+  <link rel="stylesheet" href="css/system.css?v=4" />
+</head>
+
+<body class="bg-background text-foreground antialiased font-sans">
+
+  <header class="site-header">
+    <a href="index.html" class="logo">Palak Modi</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="work.html" class="active">Work</a>
+      <a href="texts.html">Texts</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="work.html">Work</a>
+    <a href="texts.html">Texts</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main class="pt-32 pb-36">
+    <div class="px-6 md:px-12 mb-8 fade-up">
+      <a href="work.html"
+        class="inline-flex items-center gap-2 text-xs uppercase tracking-[0.15em] text-muted-foreground hover:text-foreground transition-colors duration-300">
+        <span>←</span> Back to Work
+      </a>
+    </div>
+
+    <!-- Header + Tab Nav -->
+    <section class="px-6 md:px-12 pb-16 fade-up">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
+        <div>
+          <h1 class="font-sans text-2xl md:text-3xl lg:text-4xl font-normal uppercase tracking-[0.25em] leading-[1.08]">
+            Silhouettes of Shards</h1>
+          <div class="mt-4 text-muted-foreground text-sm space-y-1">
+            <p>Solo Exhibition</p>
+            <p>Bikaner House, New Delhi</p>
+            <p>2025</p>
+          </div>
+        </div>
+
+        <nav class="tab-nav flex gap-6 md:gap-8 overflow-x-auto pb-1 -mb-1 shrink-0">
+          <button data-tab="overview"
+            class="tab-btn active text-[11px] uppercase tracking-[0.18em] whitespace-nowrap pb-1 transition-all duration-500 border-b text-foreground border-foreground/40">Overview</button>
+          <button data-tab="works"
+            class="tab-btn text-[11px] uppercase tracking-[0.18em] whitespace-nowrap pb-1 transition-all duration-500 border-b text-muted-foreground border-transparent hover:text-foreground/70">Works</button>
+          <button data-tab="installation"
+            class="tab-btn text-[11px] uppercase tracking-[0.18em] whitespace-nowrap pb-1 transition-all duration-500 border-b text-muted-foreground border-transparent hover:text-foreground/70">Installation
+            Views</button>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ═══ OVERVIEW TAB ═══ -->
+    <section id="tab-overview" class="tab-content px-6 md:px-12 pb-36">
+      <div class="flex flex-col md:flex-row gap-12 md:gap-16 items-start">
+        <div class="w-full md:w-[40%] space-y-7 md:pt-4">
+          <p class="reveal text-muted-foreground leading-[1.85] text-base">Silhouettes of Shards, curated by Manan Shah,
+            presents a body of work that examines the remnants of identity left behind by processes of fragmentation and
+            reconstruction. The exhibition draws on the metaphor of the shard—a broken piece that retains the memory of
+            its whole—to explore how selfhood persists through cycles of disruption.</p>
+          <p class="reveal text-muted-foreground leading-[1.85] text-base">The works combine organic textures with
+            structured, grid-like compositions, creating surfaces where cellular forms push against geometric order.
+            This interplay reflects the tension between natural processes of growth and decay and the rigid
+            architectures—both physical and digital—that increasingly mediate how we understand ourselves.</p>
+          <p class="reveal text-muted-foreground leading-[1.85] text-base">Through layered paper, stitched
+            interventions, and printed sequences, the exhibition traces the outlines of a self that is never fully
+            present, always in the process of becoming. The silhouette emerges not as a fixed image but as a threshold—a
+            space between presence and absence, between what is remembered and what is reconstructed.</p>
+        </div>
+        <div class="w-full md:w-[60%] overflow-hidden reveal">
+          <img
+            src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04784-large.webp'
+            alt="Silhouettes of Shards — installation"
+            class="w-full max-h-[75vh] aspect-[3/2] object-cover transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] hover:scale-[1.03]" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ ARTS TAB ═══ -->
+    <section id="tab-works" class="tab-content hidden px-6 md:px-12 pb-36">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+
+        <!-- 1. Collage 1: Born from the Frayed -->
+        <div class="space-y-3 reveal collage-card" data-title="Born From the Frayed" data-desc="Acrylic, Oil Pastel and Sand on Paper
+8.3 x 11.7 in (L), 6.3 x 7.7 in (R)" data-collage="1" style="cursor:pointer;">
+          <div class="overflow-hidden"><img data-no-lightbox
+              src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/PHOTO-2025-07-18-11-57-52-large.webp'
+              alt="Collage: Born from the Frayed" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Born from the Frayed</p>
+        </div>
+
+        <!-- 2. Collage 2: Breath Between Lines -->
+        <div class="space-y-3 reveal collage-card" data-title="Breath between Lines" data-desc="Acrylic on Paper
+6 x 8 in" data-collage="2" style="cursor:pointer;">
+          <div class="overflow-hidden"><img data-no-lightbox
+              src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/49-large.webp'
+              alt="Collage: Breath Between Lines" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Breath Between Lines</p>
+        </div>
+
+        <!-- 3. Collage 3: First Signs of Return -->
+        <div class="space-y-3 reveal collage-card" data-title="First Signs of Return" data-desc="Gauche and Pulp on Paper
+6 x 8 in" data-collage="3" style="cursor:pointer;">
+          <div class="overflow-hidden"><img data-no-lightbox
+              src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/main-large.webp'
+              alt="Collage: First Signs of Return" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">First Signs of Return</p>
+        </div>
+
+        <!-- 4. Collage 4: Web of Return -->
+        <div class="space-y-3 reveal collage-card" data-title="Web of Return" data-desc="Pulp, Acrylic, Sand and Cement on Paper
+7 x 10 in" data-collage="4" style="cursor:pointer;">
+          <div class="overflow-hidden"><img data-no-lightbox
+              src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/80-large.webp'
+              alt="Collage: Web of Return" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">Web of Return</p>
+        </div>
+
+        <!-- 5. Collage 5: (Un)Mapped -->
+        <div class="space-y-3 reveal collage-card" data-title="(Un)Mapped" data-desc="Wood, Brass, Stone, Fibreglass, Iron
+L - 154 x H - 77 x W - 11.5 in" data-collage="5" style="cursor:pointer;">
+          <div class="overflow-hidden"><img data-no-lightbox
+              src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03374-large.webp'
+              alt="Collage 5" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">(UN)Mapped</p>
+        </div>
+
+        <!-- 6. Collage 6: The Precipice of Becoming -->
+        <div class="space-y-3 reveal collage-card" data-title="The Precipice of Becoming" data-desc="Wood, Iron, Stone, Fibreglass, Clay, Stainless Steel
+L - 74 x H - 32 x W - 35 in" data-collage="6" style="cursor:pointer;">
+          <div class="overflow-hidden"><img data-no-lightbox
+              src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 6/DSC03497-large.webp'
+              alt="Collage 6" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">The Precipice of Becoming</p>
+        </div>
+
+        <!-- 7. (Un)Becoming (Collage) -->
+        <div class="space-y-3 reveal collage-card" data-title="(Un)Becoming" data-desc="Fibreglass, Stone
+L - 100 x H - 75 x W - 40 in" data-collage="unbecoming" style="cursor:pointer;">
+          <div class="overflow-hidden">
+            <img data-no-lightbox src="public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage (un)becoming/DSC03451.png"
+              alt="Collage: (Un)Becoming" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105" />
+          </div>
+          <p class="text-xs uppercase tracking-[0.15em] text-muted-foreground">(Un)Becoming</p>
+        </div>
+
+        <!-- 8. Vein of Time -->
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02808-large.webp'
+              alt="Artwork" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Vein of Time" data-desc="Ash, Sand, Cement, Paint, Coal on Canvas
+18 x 36 in" />
+          </div>
+          <p class="text-[0.65rem] uppercase tracking-[0.15em] text-muted-foreground mt-3">Vein of Time</p>
+        </div>
+
+        <!-- 9. The Quiet Descent -->
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03231-large.webp'
+              alt="Artwork" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="The Quiet Descent" data-desc="Ash, Sand, Cement, Paint, Coal on Canvas
+36 x 48 in" />
+          </div>
+          <p class="text-[0.65rem] uppercase tracking-[0.15em] text-muted-foreground mt-3">The Quiet Descent</p>
+        </div>
+
+        <!-- 10. Veil of Departure -->
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03327-large.webp'
+              alt="Artwork" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Veil of Departure" data-desc="Ash, Sand, Cement, Paint, Coal on Canvas
+36 x 36 in" />
+          </div>
+          <p class="text-[0.65rem] uppercase tracking-[0.15em] text-muted-foreground mt-3">Veil of Departure</p>
+        </div>
+
+        <!-- 11. Quiet Collapse -->
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02791-large.webp'
+              alt="Artwork" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Quiet Collapse" data-desc="Ash, Sand, Cement, Paint, Coal on Canvas
+30 x 48 in" />
+          </div>
+          <p class="text-[0.65rem] uppercase tracking-[0.15em] text-muted-foreground mt-3">Quiet Collapse</p>
+        </div>
+
+        <!-- 12. Feral Order -->
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03244-large.webp'
+              alt="Artwork" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Feral Order" data-desc="Ash, Sand, Cement, Paint, Coal on Canvas
+12 x 72 in" />
+          </div>
+          <p class="text-[0.65rem] uppercase tracking-[0.15em] text-muted-foreground mt-3">Feral Order</p>
+        </div>
+
+        <!-- 13. Ember’s Echoes -->
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03193-large.webp'
+              alt="Artwork" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Ember’s Echoes" data-desc="Ash, Sand, Cement, Paint, Coal on Canvas
+50 x 80 in" />
+          </div>
+          <p class="text-[0.65rem] uppercase tracking-[0.15em] text-muted-foreground mt-3">Ember’s Echoes</p>
+        </div>
+
+        <!-- 14. Between Burn and Dust -->
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03196-large.webp'
+              alt="Artwork" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Between Burn and Dust" data-desc="Ash, Sand, Cement, Paint, Coal on Canvas
+36 x 54 in" />
+          </div>
+          <p class="text-[0.65rem] uppercase tracking-[0.15em] text-muted-foreground mt-3">Between Burn and Dust</p>
+        </div>
+
+        <!-- 15. Everything Once Held -->
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03201-large.webp'
+              alt="Artwork" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Everything Once Held" data-desc="Ash, Sand, Cement, Paint, Coal on Canvas
+34 x 99 in" />
+          </div>
+          <p class="text-[0.65rem] uppercase tracking-[0.15em] text-muted-foreground mt-3">Everything Once Held</p>
+        </div>
+
+        <!-- 16. Line of Return -->
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02800-large.webp'
+              alt="Artwork" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Line of Return" data-desc="Acrylic on Canvas
+18 x 24 in" />
+          </div>
+          <p class="text-[0.65rem] uppercase tracking-[0.15em] text-muted-foreground mt-3">Line of Return</p>
+        </div>
+
+        <!-- 17. Cradle of Erosion I -->
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03249-large.webp'
+              alt="Artwork" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Cradle of Erosion I" data-desc="Ash, Sand, Cement, Paint, Coal on Canvas
+4 x 6 in" />
+          </div>
+          <p class="text-[0.65rem] uppercase tracking-[0.15em] text-muted-foreground mt-3">Cradle of Erosion I</p>
+        </div>
+
+        <!-- 18. Cradle of Erosion II -->
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03251-large.webp'
+              alt="Artwork" loading="lazy"
+              class="w-full aspect-[4/5] object-contain transition-all duration-700 hover:scale-[1.03] hover:brightness-105"
+              data-title="Cradle of Erosion II" data-desc="Ash, Sand, Cement, Paint, Coal on Canvas
+4 x 6 in" />
+          </div>
+          <p class="text-[0.65rem] uppercase tracking-[0.15em] text-muted-foreground mt-3">Cradle of Erosion II</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══ INSTALLATION VIEWS TAB ═══ -->
+    <section id="tab-installation" class="tab-content hidden px-6 md:px-12 pb-36">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04784-large.webp'
+              alt="Installation view 1" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04792-large.webp'
+              alt="Installation view 2" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04795-large.webp'
+              alt="Installation view 3" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04841-large.webp'
+              alt="Installation view 4" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04860-large.webp'
+              alt="Installation view 5" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04898-large.webp'
+              alt="Installation view 6" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/2F3F9D1D-2552-4F70-AC79-562A8B99B570-large.webp'
+              alt="Installation view 7" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/BDB9CB98-6C4B-4885-8A35-20CB4E696BE7-large.webp'
+              alt="Installation view 8" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2071-large.webp'
+              alt="Installation view 9" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2072-large.webp'
+              alt="Installation view 10" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2073-large.webp'
+              alt="Installation view 11" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2074-large.webp'
+              alt="Installation view 12" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2075-large.webp'
+              alt="Installation view 13" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2076-large.webp'
+              alt="Installation view 14" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2077-large.webp'
+              alt="Installation view 15" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2078-large.webp'
+              alt="Installation view 16" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2528-large.webp'
+              alt="Installation view 17" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2530-large.webp'
+              alt="Installation view 18" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+        <div class="space-y-3 reveal">
+          <div class="overflow-hidden">
+            <img
+              src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2531-large.webp'
+              alt="Installation view 19" loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer
+    class="w-full mt-10 md:mt-20 py-12 px-6 md:px-12 lg:px-20 flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-foreground-secondary tracking-wide border-t border-secondary/50">
+    <div class="font-sans text-sm uppercase tracking-[0.2em] text-foreground">Palak Modi</div>
+    <div class="flex gap-6 uppercase tracking-[0.15em] text-[10px] md:text-xs">
+      <a href="https://instagram.com" target="_blank"
+        class="flex items-center gap-2 hover:text-foreground transition-colors duration-500">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+          <path d="M16.11 7.66h.01" />
+          <path d="M12 15.33A3.33 3.33 0 1 0 12 8.67a3.33 3.33 0 0 0 0 6.66Z" />
+        </svg>
+        Instagram
+      </a>
+      <a href="mailto:hello@palakmodi.com"
+        class="flex items-center gap-2 hover:text-foreground transition-colors duration-500">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="16" x="2" y="4" rx="2" />
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+        </svg>
+        Email
+      </a>
+    </div>
+    <div class="uppercase tracking-widest text-[9px] opacity-60">© 2026. All rights reserved.</div>
+  </footer>
+
+
+
+  <script src="js/main.js?v=4"></script>
+  <script>
+    // Tab switching
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => {
+          b.classList.remove('active', 'text-foreground', 'border-foreground/40');
+          b.classList.add('text-muted-foreground', 'border-transparent');
+        });
+        btn.classList.add('active', 'text-foreground', 'border-foreground/40');
+        btn.classList.remove('text-muted-foreground', 'border-transparent');
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.add('hidden'));
+        const target = document.getElementById('tab-' + btn.dataset.tab);
+        target.classList.remove('hidden');
+        const obs = new IntersectionObserver((entries) => {
+          entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); obs.unobserve(e.target); } });
+        }, { threshold: 0.15 });
+        target.querySelectorAll('.reveal:not(.is-visible)').forEach(el => obs.observe(el));
+      });
+    });
+
+
+  </script>
+
+  <!-- Collage Sub-images Modal -->
+  <div id="collage-modal"
+    style="position:fixed;inset:0;z-index:999999;display:flex;align-items:center;justify-content:center;background:rgba(10,10,10,0.92);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);opacity:0;pointer-events:none;transition:opacity 0.45s cubic-bezier(0.4,0,0.2,1);padding:0;flex-direction:column;">
+
+    <!-- Close button -->
+    <button id="collage-modal-close"
+      style="position:absolute;top:1.25rem;right:1.5rem;background:none;border:none;color:rgba(255,255,255,0.6);font-size:2rem;cursor:pointer;z-index:100000;transition:color 0.3s,transform 0.3s;transform:scale(1);line-height:1;"
+      onmouseover="this.style.color='#fff';this.style.transform='scale(1.15)'"
+      onmouseout="this.style.color='rgba(255,255,255,0.6)';this.style.transform='scale(1)'">&times;</button>
+
+    <!-- Image counter -->
+    <div id="collage-counter"
+      style="position:absolute;top:1.5rem;left:50%;transform:translateX(-50%);color:rgba(255,255,255,0.5);font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;font-family:'Inter',sans-serif;z-index:20;transition:opacity 0.3s;">
+    </div>
+
+    <!-- Left arrow -->
+    <button id="collage-prev"
+      style="position:absolute;left:1rem;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);color:rgba(255,255,255,0.6);width:44px;height:44px;border-radius:50%;cursor:pointer;z-index:20;display:flex;align-items:center;justify-content:center;transition:all 0.3s cubic-bezier(0.4,0,0.2,1);backdrop-filter:blur(8px);"
+      onmouseover="this.style.background='rgba(255,255,255,0.12)';this.style.color='#fff';this.style.borderColor='rgba(255,255,255,0.25)'"
+      onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.color='rgba(255,255,255,0.6)';this.style.borderColor='rgba(255,255,255,0.12)'">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 18l-6-6 6-6" />
+      </svg>
+    </button>
+
+    <!-- Right arrow -->
+    <button id="collage-next"
+      style="position:absolute;right:1rem;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);color:rgba(255,255,255,0.6);width:44px;height:44px;border-radius:50%;cursor:pointer;z-index:20;display:flex;align-items:center;justify-content:center;transition:all 0.3s cubic-bezier(0.4,0,0.2,1);backdrop-filter:blur(8px);"
+      onmouseover="this.style.background='rgba(255,255,255,0.12)';this.style.color='#fff';this.style.borderColor='rgba(255,255,255,0.25)'"
+      onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.color='rgba(255,255,255,0.6)';this.style.borderColor='rgba(255,255,255,0.12)'">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 18l6-6-6-6" />
+      </svg>
+    </button>
+
+    <!-- Scroll container -->
+    <div id="collage-scroll-container"
+      style="width:100%;flex:1;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;display:flex;align-items:center;padding:0 3.5rem;scroll-snap-type:x mandatory;scroll-behavior:smooth;margin-top:3.5rem;">
+      <div id="collage-images-inner"
+        style="display:flex;gap:28px;padding:0 calc(50vw - 40%);flex-shrink:0;align-items:center;height:100%;"></div>
+    </div>
+
+    <!-- Dot indicators -->
+    <div id="collage-dots"
+      style="display:flex;gap:8px;justify-content:center;align-items:center;padding:0.5rem 0;z-index:20;flex-shrink:0;">
+    </div>
+
+    <!-- Title & Description -->
+    <div class="lightbox-info"
+      style="width:100%; padding:1rem 2.5rem 1.5rem; transform:none; opacity:1; flex:none; text-align:left; z-index:5; display:block;">
+      <h3 id="collage-modal-title"
+        style="margin-bottom:0.5rem; font-family:'Inter', sans-serif; font-size:1rem; letter-spacing:0.2em; text-transform:uppercase; color:#fff;">
+      </h3>
+      <p id="collage-modal-desc"
+        style="font-size:0.85rem; line-height:1.8; color:rgba(255,255,255,0.6); white-space:pre-wrap;"></p>
+    </div>
+  </div>
+
+  <script>
+    // Enhanced Collage Modal with scroll-driven animations
+    (function () {
+      var basePath = 'public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/';
+      var collages = {
+        '1': {
+          pieces: [
+            basePath + 'Collage 1 - born from the frayed/PHOTO-2025-07-18-11-57-52.jpg',
+            basePath + 'Collage 1 - born from the frayed/48.png',
+            basePath + 'Collage 1 - born from the frayed/86.png',
+            basePath + 'Collage 1 - born from the frayed/89.png',
+            basePath + 'Collage 1 - born from the frayed/94.png'
+          ]
+        },
+        '2': {
+          pieces: [
+            basePath + 'Collage 2 - breath between lines/18.png',
+            basePath + 'Collage 2 - breath between lines/19.png',
+            basePath + 'Collage 2 - breath between lines/38.png',
+            basePath + 'Collage 2 - breath between lines/49.png',
+            basePath + 'Collage 2 - breath between lines/57.png',
+            basePath + 'Collage 2 - breath between lines/61.png',
+            basePath + 'Collage 2 - breath between lines/62.png',
+            basePath + 'Collage 2 - breath between lines/63.png',
+            basePath + 'Collage 2 - breath between lines/64.png',
+            basePath + 'Collage 2 - breath between lines/73.png',
+            basePath + 'Collage 2 - breath between lines/74.png'
+          ]
+        },
+        '3': {
+          pieces: [
+            basePath + 'Collage 3 - first signs of return/main.png',
+            basePath + 'Collage 3 - first signs of return/69.png',
+            basePath + 'Collage 3 - first signs of return/70.png',
+            basePath + 'Collage 3 - first signs of return/71.png',
+            basePath + 'Collage 3 - first signs of return/72.png'
+          ]
+        },
+        '4': {
+          pieces: [
+            basePath + 'Collage 4- web of return/78.png',
+            basePath + 'Collage 4- web of return/79.png',
+            basePath + 'Collage 4- web of return/80.png',
+            basePath + 'Collage 4- web of return/81.png',
+            basePath + 'Collage 4- web of return/118.png'
+          ]
+        },
+        '5': {
+          pieces: [
+            basePath + 'collage 5/DSC03374.png',
+            basePath + 'collage 5/DSC03378.png',
+            basePath + 'collage 5/DSC03380.png',
+            basePath + 'collage 5/DSC03381.png',
+            basePath + 'collage 5/DSC03382.png'
+          ]
+        },
+        '6': {
+          pieces: [
+            basePath + 'collage 6/DSC03497.png',
+            basePath + 'collage 6/DSC03507.png',
+            basePath + 'collage 6/DSC03558.jpeg'
+          ]
+        },
+        'unbecoming': {
+          pieces: [
+            basePath + 'collage (un)becoming/DSC03451.png',
+            basePath + 'collage (un)becoming/DSC03488_03.png',
+            basePath + 'collage (un)becoming/12.png',
+            basePath + 'collage (un)becoming/13.png'
+
+          ]
+        }
+      };
+
+      var modal = document.getElementById('collage-modal');
+      var closeBtn = document.getElementById('collage-modal-close');
+      var imagesInner = document.getElementById('collage-images-inner');
+      var scrollContainer = document.getElementById('collage-scroll-container');
+      var counter = document.getElementById('collage-counter');
+      var dotsContainer = document.getElementById('collage-dots');
+      var prevBtn = document.getElementById('collage-prev');
+      var nextBtn = document.getElementById('collage-next');
+      var currentIndex = 0;
+      var totalImages = 0;
+      var scrollRAF = null;
+
+      // Scroll-driven parallax: scale + opacity based on distance from center
+      function updateScrollEffects() {
+        var imgs = imagesInner.querySelectorAll('img');
+        var containerRect = scrollContainer.getBoundingClientRect();
+        var centerX = containerRect.left + containerRect.width / 2;
+        var closestIdx = 0;
+        var closestDist = Infinity;
+
+        imgs.forEach(function (img, idx) {
+          var rect = img.getBoundingClientRect();
+          var imgCenter = rect.left + rect.width / 2;
+          var dist = Math.abs(imgCenter - centerX);
+          var maxDist = containerRect.width * 0.6;
+          var ratio = Math.min(dist / maxDist, 1);
+
+          // Smooth scale: centered = 1, edges = 0.82
+          var scale = 1 - ratio * 0.18;
+          // Smooth opacity: centered = 1, edges = 0.35
+          var opacity = 1 - ratio * 0.65;
+          // Subtle vertical shift for depth
+          var translateY = ratio * 8;
+
+          img.style.transform = 'scale(' + scale + ') translateY(' + translateY + 'px)';
+          img.style.opacity = opacity;
+
+          if (dist < closestDist) {
+            closestDist = dist;
+            closestIdx = idx;
+          }
+        });
+
+        // Update counter & dots
+        if (closestIdx !== currentIndex) {
+          currentIndex = closestIdx;
+          counter.textContent = (currentIndex + 1) + ' / ' + totalImages;
+          updateDots();
+        }
+
+        scrollRAF = requestAnimationFrame(updateScrollEffects);
+      }
+
+      function updateDots() {
+        var dots = dotsContainer.querySelectorAll('span');
+        dots.forEach(function (dot, i) {
+          if (i === currentIndex) {
+            dot.style.background = 'rgba(255,255,255,0.85)';
+            dot.style.width = '18px';
+          } else {
+            dot.style.background = 'rgba(255,255,255,0.25)';
+            dot.style.width = '6px';
+          }
+        });
+      }
+
+      function createDots(count) {
+        dotsContainer.innerHTML = '';
+        for (var i = 0; i < count; i++) {
+          var dot = document.createElement('span');
+          dot.style.cssText = 'width:6px;height:6px;border-radius:3px;background:rgba(255,255,255,0.25);transition:all 0.35s cubic-bezier(0.4,0,0.2,1);cursor:pointer;';
+          (function (idx) {
+            dot.addEventListener('click', function () { scrollToImage(idx); });
+          })(i);
+          dotsContainer.appendChild(dot);
+        }
+      }
+
+      function scrollToImage(idx) {
+        var imgs = imagesInner.querySelectorAll('img');
+        if (imgs[idx]) {
+          var containerRect = scrollContainer.getBoundingClientRect();
+          var imgRect = imgs[idx].getBoundingClientRect();
+          var offset = imgRect.left - containerRect.left - (containerRect.width / 2) + (imgRect.width / 2);
+          scrollContainer.scrollBy({ left: offset, behavior: 'smooth' });
+        }
+      }
+
+      function openModal(id, title, desc) {
+        var c = collages[id];
+        if (!c) return;
+        var modalTitle = document.getElementById('collage-modal-title');
+        var modalDesc = document.getElementById('collage-modal-desc');
+        if (modalTitle) modalTitle.textContent = title || '';
+        if (modalDesc) modalDesc.textContent = desc || '';
+
+        imagesInner.innerHTML = '';
+        totalImages = c.pieces.length;
+        currentIndex = 0;
+
+        c.pieces.forEach(function (src, i) {
+          var img = document.createElement('img');
+          img.src = src;
+          img.alt = 'Artwork ' + (i + 1);
+          img.style.cssText = 'width:80vw;height:75vh;border-radius:8px;object-fit:contain;flex-shrink:0;scroll-snap-align:center;opacity:0;transform:scale(0.82);transition:opacity 0.6s cubic-bezier(0.4,0,0.2,1),transform 0.6s cubic-bezier(0.4,0,0.2,1);cursor:grab;background-color:#f4f3ef;';
+          img.addEventListener('mousedown', function () { this.style.cursor = 'grabbing'; });
+          img.addEventListener('mouseup', function () { this.style.cursor = 'grab'; });
+          imagesInner.appendChild(img);
+        });
+
+        // Create dots
+        createDots(totalImages);
+        counter.textContent = '1 / ' + totalImages;
+
+        scrollContainer.scrollLeft = 0;
+        modal.style.opacity = '1';
+        modal.style.pointerEvents = 'auto';
+        document.body.style.overflow = 'hidden';
+
+        // Staggered zoom-in entrance
+        var imgs = imagesInner.querySelectorAll('img');
+        imgs.forEach(function (el, idx) {
+          setTimeout(function () {
+            el.style.opacity = '1';
+            el.style.transform = 'scale(1)';
+          }, 120 + idx * 70);
+        });
+
+        // Start scroll-driven effects after entrance animation completes
+        setTimeout(function () {
+          imgs.forEach(function (el) {
+            el.style.transition = 'none';
+          });
+          updateDots();
+          scrollRAF = requestAnimationFrame(updateScrollEffects);
+        }, 120 + totalImages * 70 + 400);
+      }
+
+      function closeModal() {
+        if (scrollRAF) { cancelAnimationFrame(scrollRAF); scrollRAF = null; }
+
+        var imgs = imagesInner.querySelectorAll('img');
+        imgs.forEach(function (el) {
+          el.style.transition = 'opacity 0.3s cubic-bezier(0.4,0,0.2,1),transform 0.3s cubic-bezier(0.4,0,0.2,1)';
+          el.style.opacity = '0';
+          el.style.transform = 'scale(0.92)';
+        });
+        setTimeout(function () {
+          modal.style.opacity = '0';
+          modal.style.pointerEvents = 'none';
+          document.body.style.overflow = '';
+        }, 200);
+      }
+
+      // Navigation buttons
+      prevBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (currentIndex > 0) scrollToImage(currentIndex - 1);
+      });
+      nextBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (currentIndex < totalImages - 1) scrollToImage(currentIndex + 1);
+      });
+
+      // Card click handlers
+      document.querySelectorAll('.collage-card').forEach(function (card) {
+        card.addEventListener('click', function (e) {
+          e.stopPropagation();
+          var lb = document.querySelector('.gallery-lightbox');
+          if (lb) {
+            lb.classList.remove('active');
+            var limg = lb.querySelector('img');
+            if (limg) limg.src = '';
+          }
+          openModal(this.dataset.collage, this.dataset.title, this.dataset.desc);
+        });
+      });
+
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+      if (modal) {
+        modal.addEventListener('click', function (e) {
+          var isImg = e.target.tagName === 'IMG';
+          var isNav = e.target.closest('#collage-prev') || e.target.closest('#collage-next') || e.target.closest('#collage-modal-close');
+          var isInfo = e.target.closest('.lightbox-info') || e.target.closest('#collage-dots') || e.target.closest('#collage-counter');
+          if (!isImg && !isNav && !isInfo) {
+            closeModal();
+          }
+        });
+      }
+
+      // Keyboard: Escape, Left, Right
+      document.addEventListener('keydown', function (e) {
+        if (modal.style.pointerEvents !== 'auto') return;
+        if (e.key === 'Escape') closeModal();
+        if (e.key === 'ArrowLeft' && currentIndex > 0) { e.preventDefault(); scrollToImage(currentIndex - 1); }
+        if (e.key === 'ArrowRight' && currentIndex < totalImages - 1) { e.preventDefault(); scrollToImage(currentIndex + 1); }
+      });
+    })();
+  </script>
+</body>
+
+</html>

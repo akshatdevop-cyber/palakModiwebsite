@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>System</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=DM+Sans:wght@300;400&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/input.css">
+  <style>
+    .sys-nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 24px; font-family: 'DM Sans', sans-serif;
+      background: linear-gradient(to bottom, rgba(18, 19, 26, 0.9) 0%, rgba(18, 19, 26, 0) 100%);
+    }
+    .sys-nav-logo {
+      font-family: 'Cormorant Garamond', serif; font-size: 20px; letter-spacing: -0.02em; text-decoration: none; color: #fff;
+    }
+    .sys-nav-links {
+      display: flex; gap: 40px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em; align-items: center;
+    }
+    .sys-nav-links a {
+      color: #fff; opacity: 0.5; text-decoration: none; transition: opacity 0.3s;
+    }
+    .sys-nav-links a:hover { opacity: 1; }
+    
+    @media (max-width: 768px) {
+      .sys-nav {
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+        background: rgba(18, 19, 26, 0.95);
+        backdrop-filter: blur(8px);
+      }
+      .sys-nav-links {
+        gap: 16px;
+        font-size: 11px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .system-page {
+        padding-top: 130px !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar matches site aesthetic but adapted for dark mode -->
+  <nav class="sys-nav">
+    <a href="index.html" class="sys-nav-logo">Palak Modi</a>
+    <div class="sys-nav-links">
+      <a href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="texts.html">Texts</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main class="system-page" style="padding-top: 100px;">
+
+    <a href="work.html" onclick="if(window.history.length > 1) { history.back(); return false; }"
+      style="display: inline-block; margin-bottom: 20px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); text-decoration: none; transition: opacity 0.3s;"
+      onmouseover="this.style.opacity='0.5'" onmouseout="this.style.opacity='1'">← Back</a>
+
+
+    <!-- ========== SYSTEM INPUT ========== -->
+    <section class="system-input breathing">
+
+      <div class="system-label">SYSTEM INPUT</div>
+
+      <p class="input-prompt">
+        Upload the artwork you just created.
+      </p>
+
+      <label class="upload-btn">
+        Upload Image
+        <input type="file" id="imageInput" accept="image/*">
+      </label>
+
+      <div id="processingText" class="processing hidden">
+        Processing input…
+      </div>
+
+      <div class="output hidden">
+        <canvas id="outputCanvas"></canvas>
+
+        <div id="system-status-text" class="system-status"></div>
+
+        <div class="action-buttons">
+          <button id="saveBtn" disabled>Save Image</button>
+          <button id="shareBtn" disabled>Share Image</button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========== SYSTEM VIEW ========== -->
+    <section class="system-view">
+
+      <div class="system-label">SYSTEM VIEW</div>
+
+      <canvas id="systemViewCanvas"></canvas>
+
+      <div class="view-note">
+        Individual inputs dissolve into a shared system.
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- JS -->
+  <script type="module" src="js/firebase.js"></script>
+  <script type="module" src="js/system-view.js"></script>
+  <script type="module" src="js/system-input.js"></script>
+
+</body>
+
+</html>
