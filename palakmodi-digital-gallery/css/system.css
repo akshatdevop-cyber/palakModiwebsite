@@ -451,3 +451,42 @@ a:hover {
   cursor: zoom-in;
   background-color: #f4f3ef;
 }
+
+/* Mobile Responsive Lightbox Modal Styles */
+@media (max-width: 767px) {
+  .gallery-lightbox {
+    padding: 1.5rem;
+    align-items: flex-start;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .lightbox-content {
+    flex-direction: column-reverse;
+    height: auto;
+    min-height: 100%;
+    margin: auto;
+    gap: 1.5rem;
+  }
+
+  .lightbox-info {
+    flex: none;
+    width: 100%;
+    transform: translateY(15px);
+    margin-top: 0.5rem;
+  }
+
+  .lightbox-image-wrapper {
+    flex: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .lightbox-image-wrapper img {
+    max-height: 65vh;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+}

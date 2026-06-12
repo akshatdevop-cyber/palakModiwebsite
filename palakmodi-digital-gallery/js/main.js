@@ -187,6 +187,8 @@ document.addEventListener("DOMContentLoaded", () => {
           lightboxImg.src = '';
           lightboxTitle.textContent = '';
           lightboxDesc.textContent = '';
+          lightboxInfo.style.display = '';
+          lightboxImageWrapper.style.flex = '';
         }
       }, 500);
     };
@@ -203,9 +205,20 @@ document.addEventListener("DOMContentLoaded", () => {
       
       img.addEventListener('click', () => {
         lightboxImg.src = img.getAttribute('data-large') || img.src;
-        // Populate text if present, otherwise set to a default message
-        lightboxTitle.textContent = img.getAttribute('data-title') || 'Artwork Title';
-        lightboxDesc.textContent = img.getAttribute('data-desc') || 'Description goes here';
+        
+        const titleText = img.getAttribute('data-title') || '';
+        const descText = img.getAttribute('data-desc') || '';
+        
+        lightboxTitle.textContent = titleText;
+        lightboxDesc.textContent = descText;
+        
+        if (!titleText && !descText) {
+          lightboxInfo.style.display = 'none';
+          lightboxImageWrapper.style.flex = '0 0 100%';
+        } else {
+          lightboxInfo.style.display = '';
+          lightboxImageWrapper.style.flex = '';
+        }
         
         lightbox.classList.add('active');
         // Prevent background scrolling while modal is open
