@@ -462,7 +462,10 @@ a:hover {
   }
 
   .lightbox-content {
+    display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
     height: auto;
     min-height: 100%;
     margin: auto;
@@ -483,10 +486,10 @@ a:hover {
   }
 
   .lightbox-image-wrapper img {
-    max-height: 65vh;
+    max-width: 90vw;
+    max-height: 80vh;
     width: auto;
     height: auto;
-    max-width: 100%;
     object-fit: contain;
   }
 }
