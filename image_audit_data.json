@@ -1,0 +1,2521 @@
+{
+  "summary": {
+    "totalUniqueReferenced": 209,
+    "existingCount": 146,
+    "missingCount": 63
+  },
+  "existing": {
+    "public/palak-thumbnail.webp": {
+      "originalReference": "public/palak-thumbnail.webp",
+      "references": [
+        {
+          "file": "about.html",
+          "line": 48,
+          "context": "<img src=\"public/palak-medium.webp\" data-large=\"public/palak-large.webp\" srcset=\"public/palak-thumbnail.webp 400w, public/palak-medium.webp 1200w, public/palak-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Palak Modi\""
+        }
+      ]
+    },
+    "public/palak-medium.webp": {
+      "originalReference": "public/palak-medium.webp",
+      "references": [
+        {
+          "file": "about.html",
+          "line": 48,
+          "context": "<img src=\"public/palak-medium.webp\" data-large=\"public/palak-large.webp\" srcset=\"public/palak-thumbnail.webp 400w, public/palak-medium.webp 1200w, public/palak-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Palak Modi\""
+        },
+        {
+          "file": "about.html",
+          "line": 48,
+          "context": "<img src=\"public/palak-medium.webp\" data-large=\"public/palak-large.webp\" srcset=\"public/palak-thumbnail.webp 400w, public/palak-medium.webp 1200w, public/palak-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Palak Modi\""
+        }
+      ]
+    },
+    "public/palak-large.webp": {
+      "originalReference": "public/palak-large.webp",
+      "references": [
+        {
+          "file": "about.html",
+          "line": 48,
+          "context": "<img src=\"public/palak-medium.webp\" data-large=\"public/palak-large.webp\" srcset=\"public/palak-thumbnail.webp 400w, public/palak-medium.webp 1200w, public/palak-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Palak Modi\""
+        },
+        {
+          "file": "about.html",
+          "line": 48,
+          "context": "<img src=\"public/palak-medium.webp\" data-large=\"public/palak-large.webp\" srcset=\"public/palak-thumbnail.webp 400w, public/palak-medium.webp 1200w, public/palak-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Palak Modi\""
+        }
+      ]
+    },
+    "public/slider1-thumbnail.webp": {
+      "originalReference": "public/slider1-thumbnail.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 58,
+          "context": "<img src=\"public/slider1-medium.webp\" data-large=\"public/slider1-large.webp\" srcset=\"public/slider1-thumbnail.webp 400w, public/slider1-medium.webp 1200w, public/slider1-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 139,
+          "context": "<img src=\"public/slider1-medium.webp\" data-large=\"public/slider1-large.webp\" srcset=\"public/slider1-thumbnail.webp 400w, public/slider1-medium.webp 1200w, public/slider1-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Abstract textured background\""
+        }
+      ]
+    },
+    "public/slider1-medium.webp": {
+      "originalReference": "public/slider1-medium.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 58,
+          "context": "<img src=\"public/slider1-medium.webp\" data-large=\"public/slider1-large.webp\" srcset=\"public/slider1-thumbnail.webp 400w, public/slider1-medium.webp 1200w, public/slider1-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 58,
+          "context": "<img src=\"public/slider1-medium.webp\" data-large=\"public/slider1-large.webp\" srcset=\"public/slider1-thumbnail.webp 400w, public/slider1-medium.webp 1200w, public/slider1-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 139,
+          "context": "<img src=\"public/slider1-medium.webp\" data-large=\"public/slider1-large.webp\" srcset=\"public/slider1-thumbnail.webp 400w, public/slider1-medium.webp 1200w, public/slider1-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Abstract textured background\""
+        },
+        {
+          "file": "index.html",
+          "line": 139,
+          "context": "<img src=\"public/slider1-medium.webp\" data-large=\"public/slider1-large.webp\" srcset=\"public/slider1-thumbnail.webp 400w, public/slider1-medium.webp 1200w, public/slider1-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Abstract textured background\""
+        }
+      ]
+    },
+    "public/slider1-large.webp": {
+      "originalReference": "public/slider1-large.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 58,
+          "context": "<img src=\"public/slider1-medium.webp\" data-large=\"public/slider1-large.webp\" srcset=\"public/slider1-thumbnail.webp 400w, public/slider1-medium.webp 1200w, public/slider1-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 58,
+          "context": "<img src=\"public/slider1-medium.webp\" data-large=\"public/slider1-large.webp\" srcset=\"public/slider1-thumbnail.webp 400w, public/slider1-medium.webp 1200w, public/slider1-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 139,
+          "context": "<img src=\"public/slider1-medium.webp\" data-large=\"public/slider1-large.webp\" srcset=\"public/slider1-thumbnail.webp 400w, public/slider1-medium.webp 1200w, public/slider1-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Abstract textured background\""
+        },
+        {
+          "file": "index.html",
+          "line": 139,
+          "context": "<img src=\"public/slider1-medium.webp\" data-large=\"public/slider1-large.webp\" srcset=\"public/slider1-thumbnail.webp 400w, public/slider1-medium.webp 1200w, public/slider1-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Abstract textured background\""
+        }
+      ]
+    },
+    "public/slider2-thumbnail.webp": {
+      "originalReference": "public/slider2-thumbnail.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 60,
+          "context": "<img src=\"public/slider2-medium.webp\" data-large=\"public/slider2-large.webp\" srcset=\"public/slider2-thumbnail.webp 400w, public/slider2-medium.webp 1200w, public/slider2-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider2-medium.webp": {
+      "originalReference": "public/slider2-medium.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 60,
+          "context": "<img src=\"public/slider2-medium.webp\" data-large=\"public/slider2-large.webp\" srcset=\"public/slider2-thumbnail.webp 400w, public/slider2-medium.webp 1200w, public/slider2-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 60,
+          "context": "<img src=\"public/slider2-medium.webp\" data-large=\"public/slider2-large.webp\" srcset=\"public/slider2-thumbnail.webp 400w, public/slider2-medium.webp 1200w, public/slider2-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider2-large.webp": {
+      "originalReference": "public/slider2-large.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 60,
+          "context": "<img src=\"public/slider2-medium.webp\" data-large=\"public/slider2-large.webp\" srcset=\"public/slider2-thumbnail.webp 400w, public/slider2-medium.webp 1200w, public/slider2-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 60,
+          "context": "<img src=\"public/slider2-medium.webp\" data-large=\"public/slider2-large.webp\" srcset=\"public/slider2-thumbnail.webp 400w, public/slider2-medium.webp 1200w, public/slider2-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider9-thumbnail.webp": {
+      "originalReference": "public/slider9-thumbnail.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "context": "<img src=\"public/slider9-medium.webp\" data-large=\"public/slider9-large.webp\" srcset=\"public/slider9-thumbnail.webp 400w, public/slider9-medium.webp 1200w, public/slider9-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider9-medium.webp": {
+      "originalReference": "public/slider9-medium.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "context": "<img src=\"public/slider9-medium.webp\" data-large=\"public/slider9-large.webp\" srcset=\"public/slider9-thumbnail.webp 400w, public/slider9-medium.webp 1200w, public/slider9-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 62,
+          "context": "<img src=\"public/slider9-medium.webp\" data-large=\"public/slider9-large.webp\" srcset=\"public/slider9-thumbnail.webp 400w, public/slider9-medium.webp 1200w, public/slider9-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider9-large.webp": {
+      "originalReference": "public/slider9-large.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "context": "<img src=\"public/slider9-medium.webp\" data-large=\"public/slider9-large.webp\" srcset=\"public/slider9-thumbnail.webp 400w, public/slider9-medium.webp 1200w, public/slider9-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 62,
+          "context": "<img src=\"public/slider9-medium.webp\" data-large=\"public/slider9-large.webp\" srcset=\"public/slider9-thumbnail.webp 400w, public/slider9-medium.webp 1200w, public/slider9-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider4-thumbnail.webp": {
+      "originalReference": "public/slider4-thumbnail.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 64,
+          "context": "<img src=\"public/slider4-medium.webp\" data-large=\"public/slider4-large.webp\" srcset=\"public/slider4-thumbnail.webp 400w, public/slider4-medium.webp 1200w, public/slider4-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider4-medium.webp": {
+      "originalReference": "public/slider4-medium.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 64,
+          "context": "<img src=\"public/slider4-medium.webp\" data-large=\"public/slider4-large.webp\" srcset=\"public/slider4-thumbnail.webp 400w, public/slider4-medium.webp 1200w, public/slider4-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 64,
+          "context": "<img src=\"public/slider4-medium.webp\" data-large=\"public/slider4-large.webp\" srcset=\"public/slider4-thumbnail.webp 400w, public/slider4-medium.webp 1200w, public/slider4-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider4-large.webp": {
+      "originalReference": "public/slider4-large.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 64,
+          "context": "<img src=\"public/slider4-medium.webp\" data-large=\"public/slider4-large.webp\" srcset=\"public/slider4-thumbnail.webp 400w, public/slider4-medium.webp 1200w, public/slider4-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 64,
+          "context": "<img src=\"public/slider4-medium.webp\" data-large=\"public/slider4-large.webp\" srcset=\"public/slider4-thumbnail.webp 400w, public/slider4-medium.webp 1200w, public/slider4-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider5-thumbnail.webp": {
+      "originalReference": "public/slider5-thumbnail.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 66,
+          "context": "<img src=\"public/slider5-medium.webp\" data-large=\"public/slider5-large.webp\" srcset=\"public/slider5-thumbnail.webp 400w, public/slider5-medium.webp 1200w, public/slider5-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider5-medium.webp": {
+      "originalReference": "public/slider5-medium.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 66,
+          "context": "<img src=\"public/slider5-medium.webp\" data-large=\"public/slider5-large.webp\" srcset=\"public/slider5-thumbnail.webp 400w, public/slider5-medium.webp 1200w, public/slider5-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 66,
+          "context": "<img src=\"public/slider5-medium.webp\" data-large=\"public/slider5-large.webp\" srcset=\"public/slider5-thumbnail.webp 400w, public/slider5-medium.webp 1200w, public/slider5-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider5-large.webp": {
+      "originalReference": "public/slider5-large.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 66,
+          "context": "<img src=\"public/slider5-medium.webp\" data-large=\"public/slider5-large.webp\" srcset=\"public/slider5-thumbnail.webp 400w, public/slider5-medium.webp 1200w, public/slider5-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 66,
+          "context": "<img src=\"public/slider5-medium.webp\" data-large=\"public/slider5-large.webp\" srcset=\"public/slider5-thumbnail.webp 400w, public/slider5-medium.webp 1200w, public/slider5-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider6-thumbnail.webp": {
+      "originalReference": "public/slider6-thumbnail.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 68,
+          "context": "<img src=\"public/slider6-medium.webp\" data-large=\"public/slider6-large.webp\" srcset=\"public/slider6-thumbnail.webp 400w, public/slider6-medium.webp 1200w, public/slider6-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider6-medium.webp": {
+      "originalReference": "public/slider6-medium.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 68,
+          "context": "<img src=\"public/slider6-medium.webp\" data-large=\"public/slider6-large.webp\" srcset=\"public/slider6-thumbnail.webp 400w, public/slider6-medium.webp 1200w, public/slider6-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 68,
+          "context": "<img src=\"public/slider6-medium.webp\" data-large=\"public/slider6-large.webp\" srcset=\"public/slider6-thumbnail.webp 400w, public/slider6-medium.webp 1200w, public/slider6-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider6-large.webp": {
+      "originalReference": "public/slider6-large.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 68,
+          "context": "<img src=\"public/slider6-medium.webp\" data-large=\"public/slider6-large.webp\" srcset=\"public/slider6-thumbnail.webp 400w, public/slider6-medium.webp 1200w, public/slider6-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 68,
+          "context": "<img src=\"public/slider6-medium.webp\" data-large=\"public/slider6-large.webp\" srcset=\"public/slider6-thumbnail.webp 400w, public/slider6-medium.webp 1200w, public/slider6-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider7-thumbnail.webp": {
+      "originalReference": "public/slider7-thumbnail.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 70,
+          "context": "<img src=\"public/slider7-medium.webp\" data-large=\"public/slider7-large.webp\" srcset=\"public/slider7-thumbnail.webp 400w, public/slider7-medium.webp 1200w, public/slider7-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider7-medium.webp": {
+      "originalReference": "public/slider7-medium.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 70,
+          "context": "<img src=\"public/slider7-medium.webp\" data-large=\"public/slider7-large.webp\" srcset=\"public/slider7-thumbnail.webp 400w, public/slider7-medium.webp 1200w, public/slider7-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 70,
+          "context": "<img src=\"public/slider7-medium.webp\" data-large=\"public/slider7-large.webp\" srcset=\"public/slider7-thumbnail.webp 400w, public/slider7-medium.webp 1200w, public/slider7-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider7-large.webp": {
+      "originalReference": "public/slider7-large.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 70,
+          "context": "<img src=\"public/slider7-medium.webp\" data-large=\"public/slider7-large.webp\" srcset=\"public/slider7-thumbnail.webp 400w, public/slider7-medium.webp 1200w, public/slider7-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 70,
+          "context": "<img src=\"public/slider7-medium.webp\" data-large=\"public/slider7-large.webp\" srcset=\"public/slider7-thumbnail.webp 400w, public/slider7-medium.webp 1200w, public/slider7-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider8-thumbnail.webp": {
+      "originalReference": "public/slider8-thumbnail.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 72,
+          "context": "<img src=\"public/slider8-medium.webp\" data-large=\"public/slider8-large.webp\" srcset=\"public/slider8-thumbnail.webp 400w, public/slider8-medium.webp 1200w, public/slider8-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider8-medium.webp": {
+      "originalReference": "public/slider8-medium.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 72,
+          "context": "<img src=\"public/slider8-medium.webp\" data-large=\"public/slider8-large.webp\" srcset=\"public/slider8-thumbnail.webp 400w, public/slider8-medium.webp 1200w, public/slider8-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 72,
+          "context": "<img src=\"public/slider8-medium.webp\" data-large=\"public/slider8-large.webp\" srcset=\"public/slider8-thumbnail.webp 400w, public/slider8-medium.webp 1200w, public/slider8-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider8-large.webp": {
+      "originalReference": "public/slider8-large.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 72,
+          "context": "<img src=\"public/slider8-medium.webp\" data-large=\"public/slider8-large.webp\" srcset=\"public/slider8-thumbnail.webp 400w, public/slider8-medium.webp 1200w, public/slider8-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 72,
+          "context": "<img src=\"public/slider8-medium.webp\" data-large=\"public/slider8-large.webp\" srcset=\"public/slider8-thumbnail.webp 400w, public/slider8-medium.webp 1200w, public/slider8-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider3-thumbnail.webp": {
+      "originalReference": "public/slider3-thumbnail.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 74,
+          "context": "<img src=\"public/slider3-medium.webp\" data-large=\"public/slider3-large.webp\" srcset=\"public/slider3-thumbnail.webp 400w, public/slider3-medium.webp 1200w, public/slider3-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider3-medium.webp": {
+      "originalReference": "public/slider3-medium.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 74,
+          "context": "<img src=\"public/slider3-medium.webp\" data-large=\"public/slider3-large.webp\" srcset=\"public/slider3-thumbnail.webp 400w, public/slider3-medium.webp 1200w, public/slider3-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 74,
+          "context": "<img src=\"public/slider3-medium.webp\" data-large=\"public/slider3-large.webp\" srcset=\"public/slider3-thumbnail.webp 400w, public/slider3-medium.webp 1200w, public/slider3-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider3-large.webp": {
+      "originalReference": "public/slider3-large.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 74,
+          "context": "<img src=\"public/slider3-medium.webp\" data-large=\"public/slider3-large.webp\" srcset=\"public/slider3-thumbnail.webp 400w, public/slider3-medium.webp 1200w, public/slider3-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 74,
+          "context": "<img src=\"public/slider3-medium.webp\" data-large=\"public/slider3-large.webp\" srcset=\"public/slider3-thumbnail.webp 400w, public/slider3-medium.webp 1200w, public/slider3-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider10-thumbnail.webp": {
+      "originalReference": "public/slider10-thumbnail.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 76,
+          "context": "<img src=\"public/slider10-medium.webp\" data-large=\"public/slider10-large.webp\" srcset=\"public/slider10-thumbnail.webp 400w, public/slider10-medium.webp 1200w, public/slider10-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 94,
+          "context": "<img src=\"public/slider10-medium.webp\" data-large=\"public/slider10-large.webp\" srcset=\"public/slider10-thumbnail.webp 400w, public/slider10-medium.webp 1200w, public/slider10-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"404: Self Not Found — installation\""
+        }
+      ]
+    },
+    "public/slider10-medium.webp": {
+      "originalReference": "public/slider10-medium.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 76,
+          "context": "<img src=\"public/slider10-medium.webp\" data-large=\"public/slider10-large.webp\" srcset=\"public/slider10-thumbnail.webp 400w, public/slider10-medium.webp 1200w, public/slider10-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 76,
+          "context": "<img src=\"public/slider10-medium.webp\" data-large=\"public/slider10-large.webp\" srcset=\"public/slider10-thumbnail.webp 400w, public/slider10-medium.webp 1200w, public/slider10-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 94,
+          "context": "<img src=\"public/slider10-medium.webp\" data-large=\"public/slider10-large.webp\" srcset=\"public/slider10-thumbnail.webp 400w, public/slider10-medium.webp 1200w, public/slider10-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"404: Self Not Found — installation\""
+        },
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 94,
+          "context": "<img src=\"public/slider10-medium.webp\" data-large=\"public/slider10-large.webp\" srcset=\"public/slider10-thumbnail.webp 400w, public/slider10-medium.webp 1200w, public/slider10-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"404: Self Not Found — installation\""
+        }
+      ]
+    },
+    "public/slider10-large.webp": {
+      "originalReference": "public/slider10-large.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 76,
+          "context": "<img src=\"public/slider10-medium.webp\" data-large=\"public/slider10-large.webp\" srcset=\"public/slider10-thumbnail.webp 400w, public/slider10-medium.webp 1200w, public/slider10-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 76,
+          "context": "<img src=\"public/slider10-medium.webp\" data-large=\"public/slider10-large.webp\" srcset=\"public/slider10-thumbnail.webp 400w, public/slider10-medium.webp 1200w, public/slider10-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 94,
+          "context": "<img src=\"public/slider10-medium.webp\" data-large=\"public/slider10-large.webp\" srcset=\"public/slider10-thumbnail.webp 400w, public/slider10-medium.webp 1200w, public/slider10-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"404: Self Not Found — installation\""
+        },
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 94,
+          "context": "<img src=\"public/slider10-medium.webp\" data-large=\"public/slider10-large.webp\" srcset=\"public/slider10-thumbnail.webp 400w, public/slider10-medium.webp 1200w, public/slider10-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"404: Self Not Found — installation\""
+        }
+      ]
+    },
+    "public/slider11-thumbnail.webp": {
+      "originalReference": "public/slider11-thumbnail.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 78,
+          "context": "<img src=\"public/slider11-medium.webp\" data-large=\"public/slider11-large.webp\" srcset=\"public/slider11-thumbnail.webp 400w, public/slider11-medium.webp 1200w, public/slider11-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider11-medium.webp": {
+      "originalReference": "public/slider11-medium.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 78,
+          "context": "<img src=\"public/slider11-medium.webp\" data-large=\"public/slider11-large.webp\" srcset=\"public/slider11-thumbnail.webp 400w, public/slider11-medium.webp 1200w, public/slider11-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 78,
+          "context": "<img src=\"public/slider11-medium.webp\" data-large=\"public/slider11-large.webp\" srcset=\"public/slider11-thumbnail.webp 400w, public/slider11-medium.webp 1200w, public/slider11-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/slider11-large.webp": {
+      "originalReference": "public/slider11-large.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 78,
+          "context": "<img src=\"public/slider11-medium.webp\" data-large=\"public/slider11-large.webp\" srcset=\"public/slider11-thumbnail.webp 400w, public/slider11-medium.webp 1200w, public/slider11-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        },
+        {
+          "file": "index.html",
+          "line": 78,
+          "context": "<img src=\"public/slider11-medium.webp\" data-large=\"public/slider11-large.webp\" srcset=\"public/slider11-thumbnail.webp 400w, public/slider11-medium.webp 1200w, public/slider11-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork\""
+        }
+      ]
+    },
+    "public/footer-thumbnail.webp": {
+      "originalReference": "public/footer-thumbnail.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 127,
+          "context": "<img src=\"public/footer-medium.webp\" data-large=\"public/footer-large.webp\" srcset=\"public/footer-thumbnail.webp 400w, public/footer-medium.webp 1200w, public/footer-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork by Palak Modi\""
+        }
+      ]
+    },
+    "public/footer-medium.webp": {
+      "originalReference": "public/footer-medium.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 127,
+          "context": "<img src=\"public/footer-medium.webp\" data-large=\"public/footer-large.webp\" srcset=\"public/footer-thumbnail.webp 400w, public/footer-medium.webp 1200w, public/footer-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork by Palak Modi\""
+        },
+        {
+          "file": "index.html",
+          "line": 127,
+          "context": "<img src=\"public/footer-medium.webp\" data-large=\"public/footer-large.webp\" srcset=\"public/footer-thumbnail.webp 400w, public/footer-medium.webp 1200w, public/footer-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork by Palak Modi\""
+        }
+      ]
+    },
+    "public/footer-large.webp": {
+      "originalReference": "public/footer-large.webp",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 127,
+          "context": "<img src=\"public/footer-medium.webp\" data-large=\"public/footer-large.webp\" srcset=\"public/footer-thumbnail.webp 400w, public/footer-medium.webp 1200w, public/footer-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork by Palak Modi\""
+        },
+        {
+          "file": "index.html",
+          "line": 127,
+          "context": "<img src=\"public/footer-medium.webp\" data-large=\"public/footer-large.webp\" srcset=\"public/footer-thumbnail.webp 400w, public/footer-medium.webp 1200w, public/footer-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Featured artwork by Palak Modi\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-thumbnail.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 120,
+          "context": "src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp\" data-large=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp\" srcset=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-thumbnail.webp 400w, public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp 1200w, public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Canvas\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 120,
+          "context": "src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp\" data-large=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp\" srcset=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-thumbnail.webp 400w, public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp 1200w, public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Canvas\""
+        },
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 120,
+          "context": "src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp\" data-large=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp\" srcset=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-thumbnail.webp 400w, public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp 1200w, public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Canvas\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 120,
+          "context": "src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp\" data-large=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp\" srcset=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-thumbnail.webp 400w, public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp 1200w, public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Canvas\""
+        },
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 120,
+          "context": "src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp\" data-large=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp\" srcset=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-thumbnail.webp 400w, public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-medium.webp 1200w, public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"Canvas\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-1/cover4-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-1/cover4-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 132,
+          "context": "src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-1/cover4-large.webp' alt=\"Overlaid\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/cover3-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/cover3-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 144,
+          "context": "src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/cover3-large.webp'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05980-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05980-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 276,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05980-large.webp'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05942-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05942-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 284,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05942-large.webp'"
+        },
+        {
+          "file": "work.html",
+          "line": 48,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05942-large.webp'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05949-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05949-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 292,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05949-large.webp'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05960-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05960-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 300,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05960-large.webp'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05967-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05967-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 308,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05967-large.webp'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05969-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05969-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 316,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05969-large.webp'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05995-Pano-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05995-Pano-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 324,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05995-Pano-large.webp'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06016-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06016-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 332,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06016-large.webp'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06022-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06022-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 340,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06022-large.webp'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06029-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06029-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 348,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06029-large.webp'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06070-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06070-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 356,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06070-large.webp'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06077-large.webp": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06077-large.webp",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 364,
+          "context": "<img src='public/404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06077-large.webp'"
+        }
+      ]
+    },
+    "public/selected-artworks/108-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/108-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 60,
+          "context": "<img src=\"public/selected-artworks/108-medium.webp\" data-large=\"public/selected-artworks/108-large.webp\" srcset=\"public/selected-artworks/108-thumbnail.webp 400w, public/selected-artworks/108-medium.webp 1200w, public/selected-artworks/108-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind I\" loading=\"lazy\""
+        },
+        {
+          "file": "work.html",
+          "line": 95,
+          "context": "<img src=\"public/selected-artworks/108-medium.webp\" data-large=\"public/selected-artworks/108-large.webp\" srcset=\"public/selected-artworks/108-thumbnail.webp 400w, public/selected-artworks/108-medium.webp 1200w, public/selected-artworks/108-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"selected-artworks\""
+        }
+      ]
+    },
+    "public/selected-artworks/108-medium.webp": {
+      "originalReference": "public/selected-artworks/108-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 60,
+          "context": "<img src=\"public/selected-artworks/108-medium.webp\" data-large=\"public/selected-artworks/108-large.webp\" srcset=\"public/selected-artworks/108-thumbnail.webp 400w, public/selected-artworks/108-medium.webp 1200w, public/selected-artworks/108-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind I\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 60,
+          "context": "<img src=\"public/selected-artworks/108-medium.webp\" data-large=\"public/selected-artworks/108-large.webp\" srcset=\"public/selected-artworks/108-thumbnail.webp 400w, public/selected-artworks/108-medium.webp 1200w, public/selected-artworks/108-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind I\" loading=\"lazy\""
+        },
+        {
+          "file": "work.html",
+          "line": 95,
+          "context": "<img src=\"public/selected-artworks/108-medium.webp\" data-large=\"public/selected-artworks/108-large.webp\" srcset=\"public/selected-artworks/108-thumbnail.webp 400w, public/selected-artworks/108-medium.webp 1200w, public/selected-artworks/108-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"selected-artworks\""
+        },
+        {
+          "file": "work.html",
+          "line": 95,
+          "context": "<img src=\"public/selected-artworks/108-medium.webp\" data-large=\"public/selected-artworks/108-large.webp\" srcset=\"public/selected-artworks/108-thumbnail.webp 400w, public/selected-artworks/108-medium.webp 1200w, public/selected-artworks/108-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"selected-artworks\""
+        }
+      ]
+    },
+    "public/selected-artworks/108-large.webp": {
+      "originalReference": "public/selected-artworks/108-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 60,
+          "context": "<img src=\"public/selected-artworks/108-medium.webp\" data-large=\"public/selected-artworks/108-large.webp\" srcset=\"public/selected-artworks/108-thumbnail.webp 400w, public/selected-artworks/108-medium.webp 1200w, public/selected-artworks/108-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind I\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 60,
+          "context": "<img src=\"public/selected-artworks/108-medium.webp\" data-large=\"public/selected-artworks/108-large.webp\" srcset=\"public/selected-artworks/108-thumbnail.webp 400w, public/selected-artworks/108-medium.webp 1200w, public/selected-artworks/108-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind I\" loading=\"lazy\""
+        },
+        {
+          "file": "work.html",
+          "line": 95,
+          "context": "<img src=\"public/selected-artworks/108-medium.webp\" data-large=\"public/selected-artworks/108-large.webp\" srcset=\"public/selected-artworks/108-thumbnail.webp 400w, public/selected-artworks/108-medium.webp 1200w, public/selected-artworks/108-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"selected-artworks\""
+        },
+        {
+          "file": "work.html",
+          "line": 95,
+          "context": "<img src=\"public/selected-artworks/108-medium.webp\" data-large=\"public/selected-artworks/108-large.webp\" srcset=\"public/selected-artworks/108-thumbnail.webp 400w, public/selected-artworks/108-medium.webp 1200w, public/selected-artworks/108-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"selected-artworks\""
+        }
+      ]
+    },
+    "public/selected-artworks/109-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/109-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 69,
+          "context": "<img src=\"public/selected-artworks/109-medium.webp\" data-large=\"public/selected-artworks/109-large.webp\" srcset=\"public/selected-artworks/109-thumbnail.webp 400w, public/selected-artworks/109-medium.webp 1200w, public/selected-artworks/109-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind II\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/109-medium.webp": {
+      "originalReference": "public/selected-artworks/109-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 69,
+          "context": "<img src=\"public/selected-artworks/109-medium.webp\" data-large=\"public/selected-artworks/109-large.webp\" srcset=\"public/selected-artworks/109-thumbnail.webp 400w, public/selected-artworks/109-medium.webp 1200w, public/selected-artworks/109-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind II\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 69,
+          "context": "<img src=\"public/selected-artworks/109-medium.webp\" data-large=\"public/selected-artworks/109-large.webp\" srcset=\"public/selected-artworks/109-thumbnail.webp 400w, public/selected-artworks/109-medium.webp 1200w, public/selected-artworks/109-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind II\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/109-large.webp": {
+      "originalReference": "public/selected-artworks/109-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 69,
+          "context": "<img src=\"public/selected-artworks/109-medium.webp\" data-large=\"public/selected-artworks/109-large.webp\" srcset=\"public/selected-artworks/109-thumbnail.webp 400w, public/selected-artworks/109-medium.webp 1200w, public/selected-artworks/109-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind II\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 69,
+          "context": "<img src=\"public/selected-artworks/109-medium.webp\" data-large=\"public/selected-artworks/109-large.webp\" srcset=\"public/selected-artworks/109-thumbnail.webp 400w, public/selected-artworks/109-medium.webp 1200w, public/selected-artworks/109-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind II\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/110-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/110-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 79,
+          "context": "<img src=\"public/selected-artworks/110-medium.webp\" data-large=\"public/selected-artworks/110-large.webp\" srcset=\"public/selected-artworks/110-thumbnail.webp 400w, public/selected-artworks/110-medium.webp 1200w, public/selected-artworks/110-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind III\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/110-medium.webp": {
+      "originalReference": "public/selected-artworks/110-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 79,
+          "context": "<img src=\"public/selected-artworks/110-medium.webp\" data-large=\"public/selected-artworks/110-large.webp\" srcset=\"public/selected-artworks/110-thumbnail.webp 400w, public/selected-artworks/110-medium.webp 1200w, public/selected-artworks/110-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind III\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 79,
+          "context": "<img src=\"public/selected-artworks/110-medium.webp\" data-large=\"public/selected-artworks/110-large.webp\" srcset=\"public/selected-artworks/110-thumbnail.webp 400w, public/selected-artworks/110-medium.webp 1200w, public/selected-artworks/110-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind III\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/110-large.webp": {
+      "originalReference": "public/selected-artworks/110-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 79,
+          "context": "<img src=\"public/selected-artworks/110-medium.webp\" data-large=\"public/selected-artworks/110-large.webp\" srcset=\"public/selected-artworks/110-thumbnail.webp 400w, public/selected-artworks/110-medium.webp 1200w, public/selected-artworks/110-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind III\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 79,
+          "context": "<img src=\"public/selected-artworks/110-medium.webp\" data-large=\"public/selected-artworks/110-large.webp\" srcset=\"public/selected-artworks/110-thumbnail.webp 400w, public/selected-artworks/110-medium.webp 1200w, public/selected-artworks/110-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"What Time Leaves Behind III\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/121-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/121-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 91,
+          "context": "<img src=\"public/selected-artworks/121-medium.webp\" data-large=\"public/selected-artworks/121-large.webp\" srcset=\"public/selected-artworks/121-thumbnail.webp 400w, public/selected-artworks/121-medium.webp 1200w, public/selected-artworks/121-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking I\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/121-medium.webp": {
+      "originalReference": "public/selected-artworks/121-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 91,
+          "context": "<img src=\"public/selected-artworks/121-medium.webp\" data-large=\"public/selected-artworks/121-large.webp\" srcset=\"public/selected-artworks/121-thumbnail.webp 400w, public/selected-artworks/121-medium.webp 1200w, public/selected-artworks/121-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking I\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 91,
+          "context": "<img src=\"public/selected-artworks/121-medium.webp\" data-large=\"public/selected-artworks/121-large.webp\" srcset=\"public/selected-artworks/121-thumbnail.webp 400w, public/selected-artworks/121-medium.webp 1200w, public/selected-artworks/121-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking I\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/121-large.webp": {
+      "originalReference": "public/selected-artworks/121-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 91,
+          "context": "<img src=\"public/selected-artworks/121-medium.webp\" data-large=\"public/selected-artworks/121-large.webp\" srcset=\"public/selected-artworks/121-thumbnail.webp 400w, public/selected-artworks/121-medium.webp 1200w, public/selected-artworks/121-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking I\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 91,
+          "context": "<img src=\"public/selected-artworks/121-medium.webp\" data-large=\"public/selected-artworks/121-large.webp\" srcset=\"public/selected-artworks/121-thumbnail.webp 400w, public/selected-artworks/121-medium.webp 1200w, public/selected-artworks/121-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking I\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/122-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/122-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 100,
+          "context": "<img src=\"public/selected-artworks/122-medium.webp\" data-large=\"public/selected-artworks/122-large.webp\" srcset=\"public/selected-artworks/122-thumbnail.webp 400w, public/selected-artworks/122-medium.webp 1200w, public/selected-artworks/122-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking II\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/122-medium.webp": {
+      "originalReference": "public/selected-artworks/122-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 100,
+          "context": "<img src=\"public/selected-artworks/122-medium.webp\" data-large=\"public/selected-artworks/122-large.webp\" srcset=\"public/selected-artworks/122-thumbnail.webp 400w, public/selected-artworks/122-medium.webp 1200w, public/selected-artworks/122-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking II\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 100,
+          "context": "<img src=\"public/selected-artworks/122-medium.webp\" data-large=\"public/selected-artworks/122-large.webp\" srcset=\"public/selected-artworks/122-thumbnail.webp 400w, public/selected-artworks/122-medium.webp 1200w, public/selected-artworks/122-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking II\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/122-large.webp": {
+      "originalReference": "public/selected-artworks/122-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 100,
+          "context": "<img src=\"public/selected-artworks/122-medium.webp\" data-large=\"public/selected-artworks/122-large.webp\" srcset=\"public/selected-artworks/122-thumbnail.webp 400w, public/selected-artworks/122-medium.webp 1200w, public/selected-artworks/122-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking II\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 100,
+          "context": "<img src=\"public/selected-artworks/122-medium.webp\" data-large=\"public/selected-artworks/122-large.webp\" srcset=\"public/selected-artworks/122-thumbnail.webp 400w, public/selected-artworks/122-medium.webp 1200w, public/selected-artworks/122-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking II\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/IMG_2703-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/IMG_2703-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 109,
+          "context": "<img src=\"public/selected-artworks/IMG_2703-medium.webp\" data-large=\"public/selected-artworks/IMG_2703-large.webp\" srcset=\"public/selected-artworks/IMG_2703-thumbnail.webp 400w, public/selected-artworks/IMG_2703-medium.webp 1200w, public/selected-artworks/IMG_2703-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"The Fragile Whole\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/IMG_2703-medium.webp": {
+      "originalReference": "public/selected-artworks/IMG_2703-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 109,
+          "context": "<img src=\"public/selected-artworks/IMG_2703-medium.webp\" data-large=\"public/selected-artworks/IMG_2703-large.webp\" srcset=\"public/selected-artworks/IMG_2703-thumbnail.webp 400w, public/selected-artworks/IMG_2703-medium.webp 1200w, public/selected-artworks/IMG_2703-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"The Fragile Whole\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 109,
+          "context": "<img src=\"public/selected-artworks/IMG_2703-medium.webp\" data-large=\"public/selected-artworks/IMG_2703-large.webp\" srcset=\"public/selected-artworks/IMG_2703-thumbnail.webp 400w, public/selected-artworks/IMG_2703-medium.webp 1200w, public/selected-artworks/IMG_2703-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"The Fragile Whole\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/IMG_2703-large.webp": {
+      "originalReference": "public/selected-artworks/IMG_2703-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 109,
+          "context": "<img src=\"public/selected-artworks/IMG_2703-medium.webp\" data-large=\"public/selected-artworks/IMG_2703-large.webp\" srcset=\"public/selected-artworks/IMG_2703-thumbnail.webp 400w, public/selected-artworks/IMG_2703-medium.webp 1200w, public/selected-artworks/IMG_2703-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"The Fragile Whole\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 109,
+          "context": "<img src=\"public/selected-artworks/IMG_2703-medium.webp\" data-large=\"public/selected-artworks/IMG_2703-large.webp\" srcset=\"public/selected-artworks/IMG_2703-thumbnail.webp 400w, public/selected-artworks/IMG_2703-medium.webp 1200w, public/selected-artworks/IMG_2703-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"The Fragile Whole\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/123-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/123-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 120,
+          "context": "<img src=\"public/selected-artworks/123-medium.webp\" data-large=\"public/selected-artworks/123-large.webp\" srcset=\"public/selected-artworks/123-thumbnail.webp 400w, public/selected-artworks/123-medium.webp 1200w, public/selected-artworks/123-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking III\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/123-medium.webp": {
+      "originalReference": "public/selected-artworks/123-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 120,
+          "context": "<img src=\"public/selected-artworks/123-medium.webp\" data-large=\"public/selected-artworks/123-large.webp\" srcset=\"public/selected-artworks/123-thumbnail.webp 400w, public/selected-artworks/123-medium.webp 1200w, public/selected-artworks/123-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking III\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 120,
+          "context": "<img src=\"public/selected-artworks/123-medium.webp\" data-large=\"public/selected-artworks/123-large.webp\" srcset=\"public/selected-artworks/123-thumbnail.webp 400w, public/selected-artworks/123-medium.webp 1200w, public/selected-artworks/123-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking III\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/123-large.webp": {
+      "originalReference": "public/selected-artworks/123-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 120,
+          "context": "<img src=\"public/selected-artworks/123-medium.webp\" data-large=\"public/selected-artworks/123-large.webp\" srcset=\"public/selected-artworks/123-thumbnail.webp 400w, public/selected-artworks/123-medium.webp 1200w, public/selected-artworks/123-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking III\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 120,
+          "context": "<img src=\"public/selected-artworks/123-medium.webp\" data-large=\"public/selected-artworks/123-large.webp\" srcset=\"public/selected-artworks/123-thumbnail.webp 400w, public/selected-artworks/123-medium.webp 1200w, public/selected-artworks/123-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking III\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/125-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/125-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 129,
+          "context": "<img src=\"public/selected-artworks/125-medium.webp\" data-large=\"public/selected-artworks/125-large.webp\" srcset=\"public/selected-artworks/125-thumbnail.webp 400w, public/selected-artworks/125-medium.webp 1200w, public/selected-artworks/125-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking V\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/125-medium.webp": {
+      "originalReference": "public/selected-artworks/125-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 129,
+          "context": "<img src=\"public/selected-artworks/125-medium.webp\" data-large=\"public/selected-artworks/125-large.webp\" srcset=\"public/selected-artworks/125-thumbnail.webp 400w, public/selected-artworks/125-medium.webp 1200w, public/selected-artworks/125-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking V\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 129,
+          "context": "<img src=\"public/selected-artworks/125-medium.webp\" data-large=\"public/selected-artworks/125-large.webp\" srcset=\"public/selected-artworks/125-thumbnail.webp 400w, public/selected-artworks/125-medium.webp 1200w, public/selected-artworks/125-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking V\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/125-large.webp": {
+      "originalReference": "public/selected-artworks/125-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 129,
+          "context": "<img src=\"public/selected-artworks/125-medium.webp\" data-large=\"public/selected-artworks/125-large.webp\" srcset=\"public/selected-artworks/125-thumbnail.webp 400w, public/selected-artworks/125-medium.webp 1200w, public/selected-artworks/125-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking V\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 129,
+          "context": "<img src=\"public/selected-artworks/125-medium.webp\" data-large=\"public/selected-artworks/125-large.webp\" srcset=\"public/selected-artworks/125-thumbnail.webp 400w, public/selected-artworks/125-medium.webp 1200w, public/selected-artworks/125-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking V\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/131-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/131-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 138,
+          "context": "<img src=\"public/selected-artworks/131-medium.webp\" data-large=\"public/selected-artworks/131-large.webp\" srcset=\"public/selected-artworks/131-thumbnail.webp 400w, public/selected-artworks/131-medium.webp 1200w, public/selected-artworks/131-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking X\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/131-medium.webp": {
+      "originalReference": "public/selected-artworks/131-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 138,
+          "context": "<img src=\"public/selected-artworks/131-medium.webp\" data-large=\"public/selected-artworks/131-large.webp\" srcset=\"public/selected-artworks/131-thumbnail.webp 400w, public/selected-artworks/131-medium.webp 1200w, public/selected-artworks/131-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking X\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 138,
+          "context": "<img src=\"public/selected-artworks/131-medium.webp\" data-large=\"public/selected-artworks/131-large.webp\" srcset=\"public/selected-artworks/131-thumbnail.webp 400w, public/selected-artworks/131-medium.webp 1200w, public/selected-artworks/131-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking X\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/131-large.webp": {
+      "originalReference": "public/selected-artworks/131-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 138,
+          "context": "<img src=\"public/selected-artworks/131-medium.webp\" data-large=\"public/selected-artworks/131-large.webp\" srcset=\"public/selected-artworks/131-thumbnail.webp 400w, public/selected-artworks/131-medium.webp 1200w, public/selected-artworks/131-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking X\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 138,
+          "context": "<img src=\"public/selected-artworks/131-medium.webp\" data-large=\"public/selected-artworks/131-large.webp\" srcset=\"public/selected-artworks/131-thumbnail.webp 400w, public/selected-artworks/131-medium.webp 1200w, public/selected-artworks/131-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking X\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/124-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/124-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 149,
+          "context": "<img src=\"public/selected-artworks/124-medium.webp\" data-large=\"public/selected-artworks/124-large.webp\" srcset=\"public/selected-artworks/124-thumbnail.webp 400w, public/selected-artworks/124-medium.webp 1200w, public/selected-artworks/124-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking IV\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/124-medium.webp": {
+      "originalReference": "public/selected-artworks/124-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 149,
+          "context": "<img src=\"public/selected-artworks/124-medium.webp\" data-large=\"public/selected-artworks/124-large.webp\" srcset=\"public/selected-artworks/124-thumbnail.webp 400w, public/selected-artworks/124-medium.webp 1200w, public/selected-artworks/124-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking IV\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 149,
+          "context": "<img src=\"public/selected-artworks/124-medium.webp\" data-large=\"public/selected-artworks/124-large.webp\" srcset=\"public/selected-artworks/124-thumbnail.webp 400w, public/selected-artworks/124-medium.webp 1200w, public/selected-artworks/124-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking IV\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/124-large.webp": {
+      "originalReference": "public/selected-artworks/124-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 149,
+          "context": "<img src=\"public/selected-artworks/124-medium.webp\" data-large=\"public/selected-artworks/124-large.webp\" srcset=\"public/selected-artworks/124-thumbnail.webp 400w, public/selected-artworks/124-medium.webp 1200w, public/selected-artworks/124-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking IV\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 149,
+          "context": "<img src=\"public/selected-artworks/124-medium.webp\" data-large=\"public/selected-artworks/124-large.webp\" srcset=\"public/selected-artworks/124-thumbnail.webp 400w, public/selected-artworks/124-medium.webp 1200w, public/selected-artworks/124-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking IV\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/126-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/126-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 158,
+          "context": "<img src=\"public/selected-artworks/126-medium.webp\" data-large=\"public/selected-artworks/126-large.webp\" srcset=\"public/selected-artworks/126-thumbnail.webp 400w, public/selected-artworks/126-medium.webp 1200w, public/selected-artworks/126-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking VI\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/126-medium.webp": {
+      "originalReference": "public/selected-artworks/126-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 158,
+          "context": "<img src=\"public/selected-artworks/126-medium.webp\" data-large=\"public/selected-artworks/126-large.webp\" srcset=\"public/selected-artworks/126-thumbnail.webp 400w, public/selected-artworks/126-medium.webp 1200w, public/selected-artworks/126-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking VI\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 158,
+          "context": "<img src=\"public/selected-artworks/126-medium.webp\" data-large=\"public/selected-artworks/126-large.webp\" srcset=\"public/selected-artworks/126-thumbnail.webp 400w, public/selected-artworks/126-medium.webp 1200w, public/selected-artworks/126-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking VI\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/126-large.webp": {
+      "originalReference": "public/selected-artworks/126-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 158,
+          "context": "<img src=\"public/selected-artworks/126-medium.webp\" data-large=\"public/selected-artworks/126-large.webp\" srcset=\"public/selected-artworks/126-thumbnail.webp 400w, public/selected-artworks/126-medium.webp 1200w, public/selected-artworks/126-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking VI\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 158,
+          "context": "<img src=\"public/selected-artworks/126-medium.webp\" data-large=\"public/selected-artworks/126-large.webp\" srcset=\"public/selected-artworks/126-thumbnail.webp 400w, public/selected-artworks/126-medium.webp 1200w, public/selected-artworks/126-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking VI\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/134-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/134-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 167,
+          "context": "<img src=\"public/selected-artworks/134-medium.webp\" data-large=\"public/selected-artworks/134-large.webp\" srcset=\"public/selected-artworks/134-thumbnail.webp 400w, public/selected-artworks/134-medium.webp 1200w, public/selected-artworks/134-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XIII\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/134-medium.webp": {
+      "originalReference": "public/selected-artworks/134-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 167,
+          "context": "<img src=\"public/selected-artworks/134-medium.webp\" data-large=\"public/selected-artworks/134-large.webp\" srcset=\"public/selected-artworks/134-thumbnail.webp 400w, public/selected-artworks/134-medium.webp 1200w, public/selected-artworks/134-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XIII\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 167,
+          "context": "<img src=\"public/selected-artworks/134-medium.webp\" data-large=\"public/selected-artworks/134-large.webp\" srcset=\"public/selected-artworks/134-thumbnail.webp 400w, public/selected-artworks/134-medium.webp 1200w, public/selected-artworks/134-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XIII\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/134-large.webp": {
+      "originalReference": "public/selected-artworks/134-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 167,
+          "context": "<img src=\"public/selected-artworks/134-medium.webp\" data-large=\"public/selected-artworks/134-large.webp\" srcset=\"public/selected-artworks/134-thumbnail.webp 400w, public/selected-artworks/134-medium.webp 1200w, public/selected-artworks/134-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XIII\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 167,
+          "context": "<img src=\"public/selected-artworks/134-medium.webp\" data-large=\"public/selected-artworks/134-large.webp\" srcset=\"public/selected-artworks/134-thumbnail.webp 400w, public/selected-artworks/134-medium.webp 1200w, public/selected-artworks/134-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XIII\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/129-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/129-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 176,
+          "context": "<img src=\"public/selected-artworks/129-medium.webp\" data-large=\"public/selected-artworks/129-large.webp\" srcset=\"public/selected-artworks/129-thumbnail.webp 400w, public/selected-artworks/129-medium.webp 1200w, public/selected-artworks/129-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking IX\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/129-medium.webp": {
+      "originalReference": "public/selected-artworks/129-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 176,
+          "context": "<img src=\"public/selected-artworks/129-medium.webp\" data-large=\"public/selected-artworks/129-large.webp\" srcset=\"public/selected-artworks/129-thumbnail.webp 400w, public/selected-artworks/129-medium.webp 1200w, public/selected-artworks/129-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking IX\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 176,
+          "context": "<img src=\"public/selected-artworks/129-medium.webp\" data-large=\"public/selected-artworks/129-large.webp\" srcset=\"public/selected-artworks/129-thumbnail.webp 400w, public/selected-artworks/129-medium.webp 1200w, public/selected-artworks/129-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking IX\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/129-large.webp": {
+      "originalReference": "public/selected-artworks/129-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 176,
+          "context": "<img src=\"public/selected-artworks/129-medium.webp\" data-large=\"public/selected-artworks/129-large.webp\" srcset=\"public/selected-artworks/129-thumbnail.webp 400w, public/selected-artworks/129-medium.webp 1200w, public/selected-artworks/129-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking IX\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 176,
+          "context": "<img src=\"public/selected-artworks/129-medium.webp\" data-large=\"public/selected-artworks/129-large.webp\" srcset=\"public/selected-artworks/129-thumbnail.webp 400w, public/selected-artworks/129-medium.webp 1200w, public/selected-artworks/129-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking IX\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/128-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/128-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 187,
+          "context": "<img src=\"public/selected-artworks/128-medium.webp\" data-large=\"public/selected-artworks/128-large.webp\" srcset=\"public/selected-artworks/128-thumbnail.webp 400w, public/selected-artworks/128-medium.webp 1200w, public/selected-artworks/128-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking VIII\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/128-medium.webp": {
+      "originalReference": "public/selected-artworks/128-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 187,
+          "context": "<img src=\"public/selected-artworks/128-medium.webp\" data-large=\"public/selected-artworks/128-large.webp\" srcset=\"public/selected-artworks/128-thumbnail.webp 400w, public/selected-artworks/128-medium.webp 1200w, public/selected-artworks/128-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking VIII\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 187,
+          "context": "<img src=\"public/selected-artworks/128-medium.webp\" data-large=\"public/selected-artworks/128-large.webp\" srcset=\"public/selected-artworks/128-thumbnail.webp 400w, public/selected-artworks/128-medium.webp 1200w, public/selected-artworks/128-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking VIII\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/128-large.webp": {
+      "originalReference": "public/selected-artworks/128-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 187,
+          "context": "<img src=\"public/selected-artworks/128-medium.webp\" data-large=\"public/selected-artworks/128-large.webp\" srcset=\"public/selected-artworks/128-thumbnail.webp 400w, public/selected-artworks/128-medium.webp 1200w, public/selected-artworks/128-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking VIII\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 187,
+          "context": "<img src=\"public/selected-artworks/128-medium.webp\" data-large=\"public/selected-artworks/128-large.webp\" srcset=\"public/selected-artworks/128-thumbnail.webp 400w, public/selected-artworks/128-medium.webp 1200w, public/selected-artworks/128-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking VIII\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/132-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/132-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 196,
+          "context": "<img src=\"public/selected-artworks/132-medium.webp\" data-large=\"public/selected-artworks/132-large.webp\" srcset=\"public/selected-artworks/132-thumbnail.webp 400w, public/selected-artworks/132-medium.webp 1200w, public/selected-artworks/132-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XI\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/132-medium.webp": {
+      "originalReference": "public/selected-artworks/132-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 196,
+          "context": "<img src=\"public/selected-artworks/132-medium.webp\" data-large=\"public/selected-artworks/132-large.webp\" srcset=\"public/selected-artworks/132-thumbnail.webp 400w, public/selected-artworks/132-medium.webp 1200w, public/selected-artworks/132-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XI\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 196,
+          "context": "<img src=\"public/selected-artworks/132-medium.webp\" data-large=\"public/selected-artworks/132-large.webp\" srcset=\"public/selected-artworks/132-thumbnail.webp 400w, public/selected-artworks/132-medium.webp 1200w, public/selected-artworks/132-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XI\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/132-large.webp": {
+      "originalReference": "public/selected-artworks/132-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 196,
+          "context": "<img src=\"public/selected-artworks/132-medium.webp\" data-large=\"public/selected-artworks/132-large.webp\" srcset=\"public/selected-artworks/132-thumbnail.webp 400w, public/selected-artworks/132-medium.webp 1200w, public/selected-artworks/132-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XI\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 196,
+          "context": "<img src=\"public/selected-artworks/132-medium.webp\" data-large=\"public/selected-artworks/132-large.webp\" srcset=\"public/selected-artworks/132-thumbnail.webp 400w, public/selected-artworks/132-medium.webp 1200w, public/selected-artworks/132-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XI\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/97-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/97-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 205,
+          "context": "<img src=\"public/selected-artworks/97-medium.webp\" data-large=\"public/selected-artworks/97-large.webp\" srcset=\"public/selected-artworks/97-thumbnail.webp 400w, public/selected-artworks/97-medium.webp 1200w, public/selected-artworks/97-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XIV\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/97-medium.webp": {
+      "originalReference": "public/selected-artworks/97-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 205,
+          "context": "<img src=\"public/selected-artworks/97-medium.webp\" data-large=\"public/selected-artworks/97-large.webp\" srcset=\"public/selected-artworks/97-thumbnail.webp 400w, public/selected-artworks/97-medium.webp 1200w, public/selected-artworks/97-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XIV\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 205,
+          "context": "<img src=\"public/selected-artworks/97-medium.webp\" data-large=\"public/selected-artworks/97-large.webp\" srcset=\"public/selected-artworks/97-thumbnail.webp 400w, public/selected-artworks/97-medium.webp 1200w, public/selected-artworks/97-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XIV\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/97-large.webp": {
+      "originalReference": "public/selected-artworks/97-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 205,
+          "context": "<img src=\"public/selected-artworks/97-medium.webp\" data-large=\"public/selected-artworks/97-large.webp\" srcset=\"public/selected-artworks/97-thumbnail.webp 400w, public/selected-artworks/97-medium.webp 1200w, public/selected-artworks/97-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XIV\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 205,
+          "context": "<img src=\"public/selected-artworks/97-medium.webp\" data-large=\"public/selected-artworks/97-large.webp\" srcset=\"public/selected-artworks/97-thumbnail.webp 400w, public/selected-artworks/97-medium.webp 1200w, public/selected-artworks/97-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XIV\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/133-thumbnail.webp": {
+      "originalReference": "public/selected-artworks/133-thumbnail.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 216,
+          "context": "<img src=\"public/selected-artworks/133-medium.webp\" data-large=\"public/selected-artworks/133-large.webp\" srcset=\"public/selected-artworks/133-thumbnail.webp 400w, public/selected-artworks/133-medium.webp 1200w, public/selected-artworks/133-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XII\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/133-medium.webp": {
+      "originalReference": "public/selected-artworks/133-medium.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 216,
+          "context": "<img src=\"public/selected-artworks/133-medium.webp\" data-large=\"public/selected-artworks/133-large.webp\" srcset=\"public/selected-artworks/133-thumbnail.webp 400w, public/selected-artworks/133-medium.webp 1200w, public/selected-artworks/133-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XII\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 216,
+          "context": "<img src=\"public/selected-artworks/133-medium.webp\" data-large=\"public/selected-artworks/133-large.webp\" srcset=\"public/selected-artworks/133-thumbnail.webp 400w, public/selected-artworks/133-medium.webp 1200w, public/selected-artworks/133-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XII\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/selected-artworks/133-large.webp": {
+      "originalReference": "public/selected-artworks/133-large.webp",
+      "references": [
+        {
+          "file": "project-selected-artworks.html",
+          "line": 216,
+          "context": "<img src=\"public/selected-artworks/133-medium.webp\" data-large=\"public/selected-artworks/133-large.webp\" srcset=\"public/selected-artworks/133-thumbnail.webp 400w, public/selected-artworks/133-medium.webp 1200w, public/selected-artworks/133-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XII\" loading=\"lazy\""
+        },
+        {
+          "file": "project-selected-artworks.html",
+          "line": 216,
+          "context": "<img src=\"public/selected-artworks/133-medium.webp\" data-large=\"public/selected-artworks/133-large.webp\" srcset=\"public/selected-artworks/133-thumbnail.webp 400w, public/selected-artworks/133-medium.webp 1200w, public/selected-artworks/133-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"After the Unmaking XII\" loading=\"lazy\""
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04784-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04784-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 92,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04784-large.webp'"
+        },
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 321,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04784-large.webp'"
+        },
+        {
+          "file": "work.html",
+          "line": 72,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04784-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/PHOTO-2025-07-18-11-57-52-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/PHOTO-2025-07-18-11-57-52-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 107,
+          "context": "src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/PHOTO-2025-07-18-11-57-52-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/49-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/49-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 118,
+          "context": "src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/49-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/main-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/main-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 129,
+          "context": "src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/main-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/80-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/80-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 140,
+          "context": "src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/80-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03374-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03374-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 151,
+          "context": "src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03374-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 6/DSC03497-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 6/DSC03497-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 162,
+          "context": "src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 6/DSC03497-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02808-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02808-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 183,
+          "context": "<img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02808-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03231-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03231-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 195,
+          "context": "<img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03231-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03327-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03327-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 207,
+          "context": "<img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03327-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02791-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02791-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 219,
+          "context": "<img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02791-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03244-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03244-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 231,
+          "context": "<img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03244-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03193-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03193-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 243,
+          "context": "<img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03193-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03196-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03196-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 255,
+          "context": "<img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03196-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03201-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03201-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 267,
+          "context": "<img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03201-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02800-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02800-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 279,
+          "context": "<img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02800-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03249-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03249-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 291,
+          "context": "<img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03249-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03251-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03251-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 303,
+          "context": "<img src='public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03251-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04792-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04792-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 329,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04792-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04795-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04795-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 337,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04795-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04841-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04841-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 345,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04841-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04860-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04860-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 353,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04860-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04898-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04898-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 361,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04898-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/2F3F9D1D-2552-4F70-AC79-562A8B99B570-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/2F3F9D1D-2552-4F70-AC79-562A8B99B570-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 369,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/2F3F9D1D-2552-4F70-AC79-562A8B99B570-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/BDB9CB98-6C4B-4885-8A35-20CB4E696BE7-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/BDB9CB98-6C4B-4885-8A35-20CB4E696BE7-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 377,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/BDB9CB98-6C4B-4885-8A35-20CB4E696BE7-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2071-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2071-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 385,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2071-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2072-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2072-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 393,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2072-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2073-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2073-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 401,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2073-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2074-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2074-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 409,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2074-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2075-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2075-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 417,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2075-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2076-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2076-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 425,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2076-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2077-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2077-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 433,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2077-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2078-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2078-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 441,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2078-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2528-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2528-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 449,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2528-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2530-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2530-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 457,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2530-large.webp'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2531-large.webp": {
+      "originalReference": "public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2531-large.webp",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 465,
+          "context": "src='public/silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2531-large.webp'"
+        }
+      ]
+    },
+    "public/syin-thumbnail.webp": {
+      "originalReference": "public/syin-thumbnail.webp",
+      "references": [
+        {
+          "file": "work.html",
+          "line": 115,
+          "context": "<img src=\"public/syin-medium.webp\" data-large=\"public/syin-large.webp\" srcset=\"public/syin-thumbnail.webp 400w, public/syin-medium.webp 1200w, public/syin-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"System Input / Output\""
+        }
+      ]
+    },
+    "public/syin-medium.webp": {
+      "originalReference": "public/syin-medium.webp",
+      "references": [
+        {
+          "file": "work.html",
+          "line": 115,
+          "context": "<img src=\"public/syin-medium.webp\" data-large=\"public/syin-large.webp\" srcset=\"public/syin-thumbnail.webp 400w, public/syin-medium.webp 1200w, public/syin-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"System Input / Output\""
+        },
+        {
+          "file": "work.html",
+          "line": 115,
+          "context": "<img src=\"public/syin-medium.webp\" data-large=\"public/syin-large.webp\" srcset=\"public/syin-thumbnail.webp 400w, public/syin-medium.webp 1200w, public/syin-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"System Input / Output\""
+        }
+      ]
+    },
+    "public/syin-large.webp": {
+      "originalReference": "public/syin-large.webp",
+      "references": [
+        {
+          "file": "work.html",
+          "line": 115,
+          "context": "<img src=\"public/syin-medium.webp\" data-large=\"public/syin-large.webp\" srcset=\"public/syin-thumbnail.webp 400w, public/syin-medium.webp 1200w, public/syin-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"System Input / Output\""
+        },
+        {
+          "file": "work.html",
+          "line": 115,
+          "context": "<img src=\"public/syin-medium.webp\" data-large=\"public/syin-large.webp\" srcset=\"public/syin-thumbnail.webp 400w, public/syin-medium.webp 1200w, public/syin-large.webp 2048w\" sizes=\"(max-width: 768px) 100vw, 33vw\" alt=\"System Input / Output\""
+        }
+      ]
+    }
+  },
+  "missing": {
+    "js/system-input.jpg": {
+      "originalReference": "system-input.jpg",
+      "references": [
+        {
+          "file": "js/system-input.js",
+          "line": 154,
+          "context": "const file = new File([blob], \"system-input.jpg\", { type: \"image/jpeg\" });"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Algorithmic Flesh, (9x11in)/cover1.jpeg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Algorithmic Flesh, (9x11in)/cover1.jpeg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 109,
+          "context": "src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Algorithmic Flesh, (9x11in)/cover1.jpeg\""
+        },
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 497,
+          "context": "basePath + 'Algorithmic Flesh, (9x11in)/cover1.jpeg',"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Break in Protocol.jpg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Break in Protocol.jpg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 155,
+          "context": "src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Break in Protocol.jpg\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Code and Cortex.jpg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Code and Cortex.jpg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 167,
+          "context": "src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Code and Cortex.jpg\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Confluence.jpg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Confluence.jpg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 178,
+          "context": "<img src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Confluence.jpg\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Neurogrid.jpg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Neurogrid.jpg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 189,
+          "context": "<img src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Neurogrid.jpg\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Self in Dissolution.jpg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Self in Dissolution.jpg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 201,
+          "context": "src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Self in Dissolution.jpg\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Sequence of Fading.jpg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Sequence of Fading.jpg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 213,
+          "context": "src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Sequence of Fading.jpg\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Signal Repair.jpg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Signal Repair.jpg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 224,
+          "context": "<img src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Signal Repair.jpg\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Silent Friction.jpg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Silent Friction.jpg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 236,
+          "context": "src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Silent Friction.jpg\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Threshold of Care.jpg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Threshold of Care.jpg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 248,
+          "context": "src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Threshold of Care.jpg\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Vestige.jpg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Vestige.jpg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 259,
+          "context": "<img src=\"public/404-arts-shot/drive-download-20260523T172843Z-3-001/Sandpaper (9x11 in)/Vestige.jpg\""
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Algorithmic Flesh, (9x11in)/IMG_4717.PNG": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Algorithmic Flesh, (9x11in)/IMG_4717.PNG",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 498,
+          "context": "basePath + 'Algorithmic Flesh, (9x11in)/IMG_4717.PNG',"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Algorithmic Flesh, (9x11in)/IMG_4718.PNG": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Algorithmic Flesh, (9x11in)/IMG_4718.PNG",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 499,
+          "context": "basePath + 'Algorithmic Flesh, (9x11in)/IMG_4718.PNG',"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Algorithmic Flesh, (9x11in)/IMG_4720.PNG": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Algorithmic Flesh, (9x11in)/IMG_4720.PNG",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 500,
+          "context": "basePath + 'Algorithmic Flesh, (9x11in)/IMG_4720.PNG'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2.jpeg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2.jpeg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 505,
+          "context": "basePath + 'Canvas/cover2.jpeg',"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/DSC05992.jpeg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/DSC05992.jpeg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 506,
+          "context": "basePath + 'Canvas/DSC05992.jpeg',"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/DSC06001.jpeg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/DSC06001.jpeg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 507,
+          "context": "basePath + 'Canvas/DSC06001.jpeg'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-1/cover4.jpeg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-1/cover4.jpeg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 513,
+          "context": "basePath + 'collage 404-1/cover4.jpeg',"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-1/DSC06022.jpeg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-1/DSC06022.jpeg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 514,
+          "context": "basePath + 'collage 404-1/DSC06022.jpeg',"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-1/DSC06024.jpeg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-1/DSC06024.jpeg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 515,
+          "context": "basePath + 'collage 404-1/DSC06024.jpeg'"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/cover3.jpeg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/cover3.jpeg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 520,
+          "context": "basePath + 'collage 404-2/cover3.jpeg',"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/DSC05960.jpeg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/DSC05960.jpeg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 521,
+          "context": "basePath + 'collage 404-2/DSC05960.jpeg',"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/DSC06070.jpeg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/DSC06070.jpeg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 522,
+          "context": "basePath + 'collage 404-2/DSC06070.jpeg',"
+        }
+      ]
+    },
+    "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/WhatsApp Image 2026-05-28 at 7.17.17 PM.jpeg": {
+      "originalReference": "public/404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/WhatsApp Image 2026-05-28 at 7.17.17 PM.jpeg",
+      "references": [
+        {
+          "file": "project-404-self-not-found.html",
+          "line": 523,
+          "context": "basePath + 'collage 404-2/WhatsApp Image 2026-05-28 at 7.17.17 PM.jpeg'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage (un)becoming/DSC03451.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage (un)becoming/DSC03451.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 173,
+          "context": "<img data-no-lightbox src=\"public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage (un)becoming/DSC03451.png\""
+        },
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 652,
+          "context": "basePath + 'collage (un)becoming/DSC03451.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/PHOTO-2025-07-18-11-57-52.jpg": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/PHOTO-2025-07-18-11-57-52.jpg",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 594,
+          "context": "basePath + 'Collage 1 - born from the frayed/PHOTO-2025-07-18-11-57-52.jpg',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/48.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/48.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 595,
+          "context": "basePath + 'Collage 1 - born from the frayed/48.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/86.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/86.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 596,
+          "context": "basePath + 'Collage 1 - born from the frayed/86.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/89.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/89.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 597,
+          "context": "basePath + 'Collage 1 - born from the frayed/89.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/94.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/94.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 598,
+          "context": "basePath + 'Collage 1 - born from the frayed/94.png'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/18.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/18.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 603,
+          "context": "basePath + 'Collage 2 - breath between lines/18.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/19.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/19.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 604,
+          "context": "basePath + 'Collage 2 - breath between lines/19.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/38.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/38.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 605,
+          "context": "basePath + 'Collage 2 - breath between lines/38.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/49.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/49.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 606,
+          "context": "basePath + 'Collage 2 - breath between lines/49.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/57.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/57.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 607,
+          "context": "basePath + 'Collage 2 - breath between lines/57.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/61.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/61.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 608,
+          "context": "basePath + 'Collage 2 - breath between lines/61.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/62.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/62.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 609,
+          "context": "basePath + 'Collage 2 - breath between lines/62.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/63.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/63.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 610,
+          "context": "basePath + 'Collage 2 - breath between lines/63.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/64.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/64.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 611,
+          "context": "basePath + 'Collage 2 - breath between lines/64.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/73.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/73.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 612,
+          "context": "basePath + 'Collage 2 - breath between lines/73.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/74.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/74.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 613,
+          "context": "basePath + 'Collage 2 - breath between lines/74.png'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/main.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/main.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 618,
+          "context": "basePath + 'Collage 3 - first signs of return/main.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/69.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/69.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 619,
+          "context": "basePath + 'Collage 3 - first signs of return/69.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/70.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/70.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 620,
+          "context": "basePath + 'Collage 3 - first signs of return/70.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/71.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/71.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 621,
+          "context": "basePath + 'Collage 3 - first signs of return/71.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/72.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/72.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 622,
+          "context": "basePath + 'Collage 3 - first signs of return/72.png'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/78.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/78.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 627,
+          "context": "basePath + 'Collage 4- web of return/78.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/79.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/79.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 628,
+          "context": "basePath + 'Collage 4- web of return/79.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/80.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/80.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 629,
+          "context": "basePath + 'Collage 4- web of return/80.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/81.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/81.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 630,
+          "context": "basePath + 'Collage 4- web of return/81.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/118.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/118.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 631,
+          "context": "basePath + 'Collage 4- web of return/118.png'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03374.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03374.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 636,
+          "context": "basePath + 'collage 5/DSC03374.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03378.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03378.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 637,
+          "context": "basePath + 'collage 5/DSC03378.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03380.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03380.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 638,
+          "context": "basePath + 'collage 5/DSC03380.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03381.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03381.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 639,
+          "context": "basePath + 'collage 5/DSC03381.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03382.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03382.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 640,
+          "context": "basePath + 'collage 5/DSC03382.png'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 6/DSC03497.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 6/DSC03497.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 645,
+          "context": "basePath + 'collage 6/DSC03497.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 6/DSC03507.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 6/DSC03507.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 646,
+          "context": "basePath + 'collage 6/DSC03507.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 6/DSC03558.jpeg": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 6/DSC03558.jpeg",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 647,
+          "context": "basePath + 'collage 6/DSC03558.jpeg'"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage (un)becoming/DSC03488_03.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage (un)becoming/DSC03488_03.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 653,
+          "context": "basePath + 'collage (un)becoming/DSC03488_03.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage (un)becoming/12.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage (un)becoming/12.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 654,
+          "context": "basePath + 'collage (un)becoming/12.png',"
+        }
+      ]
+    },
+    "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage (un)becoming/13.png": {
+      "originalReference": "public/silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage (un)becoming/13.png",
+      "references": [
+        {
+          "file": "project-silhouettes-of-shards-updated.html",
+          "line": 655,
+          "context": "basePath + 'collage (un)becoming/13.png'"
+        }
+      ]
+    }
+  }
+}

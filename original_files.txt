@@ -1,0 +1,412 @@
+[
+  {
+    "name": "cover2.jpeg",
+    "size": 56274100,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Canvas/cover2.jpeg"
+  },
+  {
+    "name": "cover4.jpeg",
+    "size": 17898634,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-1/cover4.jpeg"
+  },
+  {
+    "name": "cover3.jpeg",
+    "size": 14494852,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/collage 404-2/cover3.jpeg"
+  },
+  {
+    "name": "DSC05942.jpeg",
+    "size": 17112260,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05942.jpeg"
+  },
+  {
+    "name": "DSC05949.jpeg",
+    "size": 18911813,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05949.jpeg"
+  },
+  {
+    "name": "DSC05960.jpeg",
+    "size": 16863594,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05960.jpeg"
+  },
+  {
+    "name": "DSC05967.jpeg",
+    "size": 14701772,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05967.jpeg"
+  },
+  {
+    "name": "DSC05969.jpeg",
+    "size": 12939000,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05969.jpeg"
+  },
+  {
+    "name": "DSC05980.jpeg",
+    "size": 16951200,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05980.jpeg"
+  },
+  {
+    "name": "DSC05995-Pano.jpeg",
+    "size": 56274100,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC05995-Pano.jpeg"
+  },
+  {
+    "name": "DSC06016.jpeg",
+    "size": 17898634,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06016.jpeg"
+  },
+  {
+    "name": "DSC06022.jpeg",
+    "size": 17563400,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06022.jpeg"
+  },
+  {
+    "name": "DSC06029.jpeg",
+    "size": 15501174,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06029.jpeg"
+  },
+  {
+    "name": "DSC06070.jpeg",
+    "size": 17659583,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06070.jpeg"
+  },
+  {
+    "name": "DSC06077.jpeg",
+    "size": 20217843,
+    "relPath": "404-arts-shot/drive-download-20260523T172843Z-3-001/Installation Shots/DSC06077.jpeg"
+  },
+  {
+    "name": "footer.jpg",
+    "size": 215596,
+    "relPath": "footer.jpg"
+  },
+  {
+    "name": "palak.png",
+    "size": 2044181,
+    "relPath": "palak.png"
+  },
+  {
+    "name": "108.png",
+    "size": 4366997,
+    "relPath": "selected-artworks/108.png"
+  },
+  {
+    "name": "109.png",
+    "size": 4588741,
+    "relPath": "selected-artworks/109.png"
+  },
+  {
+    "name": "110.png",
+    "size": 4559279,
+    "relPath": "selected-artworks/110.png"
+  },
+  {
+    "name": "121.png",
+    "size": 5170844,
+    "relPath": "selected-artworks/121.png"
+  },
+  {
+    "name": "122.png",
+    "size": 5797025,
+    "relPath": "selected-artworks/122.png"
+  },
+  {
+    "name": "123.png",
+    "size": 5945653,
+    "relPath": "selected-artworks/123.png"
+  },
+  {
+    "name": "124.png",
+    "size": 7907217,
+    "relPath": "selected-artworks/124.png"
+  },
+  {
+    "name": "125.png",
+    "size": 4747608,
+    "relPath": "selected-artworks/125.png"
+  },
+  {
+    "name": "126.png",
+    "size": 7542972,
+    "relPath": "selected-artworks/126.png"
+  },
+  {
+    "name": "128.png",
+    "size": 5258773,
+    "relPath": "selected-artworks/128.png"
+  },
+  {
+    "name": "129.png",
+    "size": 6054281,
+    "relPath": "selected-artworks/129.png"
+  },
+  {
+    "name": "131.png",
+    "size": 8085229,
+    "relPath": "selected-artworks/131.png"
+  },
+  {
+    "name": "132.png",
+    "size": 7425629,
+    "relPath": "selected-artworks/132.png"
+  },
+  {
+    "name": "133.png",
+    "size": 7919405,
+    "relPath": "selected-artworks/133.png"
+  },
+  {
+    "name": "134.png",
+    "size": 7566624,
+    "relPath": "selected-artworks/134.png"
+  },
+  {
+    "name": "97.png",
+    "size": 6571348,
+    "relPath": "selected-artworks/97.png"
+  },
+  {
+    "name": "IMG_2703.PNG",
+    "size": 495413,
+    "relPath": "selected-artworks/IMG_2703.PNG"
+  },
+  {
+    "name": "2F3F9D1D-2552-4F70-AC79-562A8B99B570.jpg",
+    "size": 201578,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/2F3F9D1D-2552-4F70-AC79-562A8B99B570.jpg"
+  },
+  {
+    "name": "BDB9CB98-6C4B-4885-8A35-20CB4E696BE7.jpg",
+    "size": 332222,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/BDB9CB98-6C4B-4885-8A35-20CB4E696BE7.jpg"
+  },
+  {
+    "name": "DSC04784.jpeg",
+    "size": 5243853,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04784.jpeg"
+  },
+  {
+    "name": "DSC04792.jpeg",
+    "size": 3547414,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04792.jpeg"
+  },
+  {
+    "name": "DSC04795.jpeg",
+    "size": 4107555,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04795.jpeg"
+  },
+  {
+    "name": "DSC04841.jpeg",
+    "size": 3775900,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04841.jpeg"
+  },
+  {
+    "name": "DSC04860.jpeg",
+    "size": 15401413,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04860.jpeg"
+  },
+  {
+    "name": "DSC04898.jpeg",
+    "size": 4991206,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/DSC04898.jpeg"
+  },
+  {
+    "name": "IMG_2071.PNG",
+    "size": 15836762,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2071.PNG"
+  },
+  {
+    "name": "IMG_2072.PNG",
+    "size": 23710270,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2072.PNG"
+  },
+  {
+    "name": "IMG_2073.PNG",
+    "size": 26422593,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2073.PNG"
+  },
+  {
+    "name": "IMG_2074.PNG",
+    "size": 15930186,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2074.PNG"
+  },
+  {
+    "name": "IMG_2075.PNG",
+    "size": 25027178,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2075.PNG"
+  },
+  {
+    "name": "IMG_2076.PNG",
+    "size": 17006969,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2076.PNG"
+  },
+  {
+    "name": "IMG_2077.PNG",
+    "size": 13870740,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2077.PNG"
+  },
+  {
+    "name": "IMG_2078.PNG",
+    "size": 24934841,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2078.PNG"
+  },
+  {
+    "name": "IMG_2528.PNG",
+    "size": 1170052,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2528.PNG"
+  },
+  {
+    "name": "IMG_2530.PNG",
+    "size": 576796,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2530.PNG"
+  },
+  {
+    "name": "IMG_2531.PNG",
+    "size": 1294792,
+    "relPath": "silhouettes-shards-images/silhoutee installation shots/drive-download-20260413T184229Z-3-001/IMG_2531.PNG"
+  },
+  {
+    "name": "PHOTO-2025-07-18-11-57-52.jpg",
+    "size": 60663,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 1 - born from the frayed/PHOTO-2025-07-18-11-57-52.jpg"
+  },
+  {
+    "name": "49.png",
+    "size": 1693401,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 2 - breath between lines/49.png"
+  },
+  {
+    "name": "main.png",
+    "size": 727463,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 3 - first signs of return/main.png"
+  },
+  {
+    "name": "80.png",
+    "size": 6245548,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/Collage 4- web of return/80.png"
+  },
+  {
+    "name": "DSC03374.png",
+    "size": 13800158,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 5/DSC03374.png"
+  },
+  {
+    "name": "DSC03497.png",
+    "size": 17152632,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/collage 6/DSC03497.png"
+  },
+  {
+    "name": "DSC02791.png",
+    "size": 19565035,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02791.png"
+  },
+  {
+    "name": "DSC02800.png",
+    "size": 17178427,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02800.png"
+  },
+  {
+    "name": "DSC02808.jpeg",
+    "size": 15126320,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC02808.jpeg"
+  },
+  {
+    "name": "DSC03193.jpeg",
+    "size": 14415003,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03193.jpeg"
+  },
+  {
+    "name": "DSC03196.jpeg",
+    "size": 11840239,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03196.jpeg"
+  },
+  {
+    "name": "DSC03201.jpeg",
+    "size": 7600818,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03201.jpeg"
+  },
+  {
+    "name": "DSC03231.jpeg",
+    "size": 9132029,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03231.jpeg"
+  },
+  {
+    "name": "DSC03244.jpeg",
+    "size": 145573,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03244.jpeg"
+  },
+  {
+    "name": "DSC03249.jpeg",
+    "size": 304370,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03249.jpeg"
+  },
+  {
+    "name": "DSC03251.jpeg",
+    "size": 5114813,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03251.jpeg"
+  },
+  {
+    "name": "DSC03327.png",
+    "size": 15236993,
+    "relPath": "silhouettes-shards-images/silhuoutee arts/drive-download-20260523T171324Z-3-001/DSC03327.png"
+  },
+  {
+    "name": "slider1.jpg",
+    "size": 349364,
+    "relPath": "slider1.jpg"
+  },
+  {
+    "name": "slider10.jpeg",
+    "size": 180804,
+    "relPath": "slider10.jpeg"
+  },
+  {
+    "name": "slider11.jpeg",
+    "size": 241246,
+    "relPath": "slider11.jpeg"
+  },
+  {
+    "name": "slider2.jpg",
+    "size": 378498,
+    "relPath": "slider2.jpg"
+  },
+  {
+    "name": "slider3.jpg",
+    "size": 425185,
+    "relPath": "slider3.jpg"
+  },
+  {
+    "name": "slider4.jpg",
+    "size": 159548,
+    "relPath": "slider4.jpg"
+  },
+  {
+    "name": "slider5.jpeg",
+    "size": 196435,
+    "relPath": "slider5.jpeg"
+  },
+  {
+    "name": "slider6.jpg",
+    "size": 204884,
+    "relPath": "slider6.jpg"
+  },
+  {
+    "name": "slider7.jpg",
+    "size": 326398,
+    "relPath": "slider7.jpg"
+  },
+  {
+    "name": "slider8.jpg",
+    "size": 308740,
+    "relPath": "slider8.jpg"
+  },
+  {
+    "name": "slider9.jpeg",
+    "size": 228224,
+    "relPath": "slider9.jpeg"
+  },
+  {
+    "name": "syin.png",
+    "size": 2368005,
+    "relPath": "syin.png"
+  }
+]

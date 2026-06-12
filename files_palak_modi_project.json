@@ -1,0 +1,147 @@
+[
+  {
+    "name": "chatgpt",
+    "size": 565,
+    "fullPath": "E:/palak modi project/chatgpt"
+  },
+  {
+    "name": "game.html",
+    "size": 5295,
+    "fullPath": "E:/palak modi project/game.html"
+  },
+  {
+    "name": "index.html",
+    "size": 6047,
+    "fullPath": "E:/palak modi project/hand gesture/index.html"
+  },
+  {
+    "name": "index .html",
+    "size": 5790,
+    "fullPath": "E:/palak modi project/index .html"
+  },
+  {
+    "name": "Main.unity",
+    "size": 836,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scenes/Main.unity"
+  },
+  {
+    "name": "AutoDestroyBehind.cs",
+    "size": 341,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/AutoDestroyBehind.cs"
+  },
+  {
+    "name": "CameraFollow.cs",
+    "size": 518,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/CameraFollow.cs"
+  },
+  {
+    "name": "CoinCollector.cs",
+    "size": 299,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/CoinCollector.cs"
+  },
+  {
+    "name": "CoinMarker.cs",
+    "size": 65,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/CoinMarker.cs"
+  },
+  {
+    "name": "CoinSpawner.cs",
+    "size": 2852,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/CoinSpawner.cs"
+  },
+  {
+    "name": "CoinSpin.cs",
+    "size": 216,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/CoinSpin.cs"
+  },
+  {
+    "name": "GameBootstrap.cs",
+    "size": 416,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/GameBootstrap.cs"
+  },
+  {
+    "name": "GameManager.cs",
+    "size": 7025,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/GameManager.cs"
+  },
+  {
+    "name": "GroundScroller.cs",
+    "size": 2520,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/GroundScroller.cs"
+  },
+  {
+    "name": "ObstacleMarker.cs",
+    "size": 69,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/ObstacleMarker.cs"
+  },
+  {
+    "name": "ObstacleSpawner.cs",
+    "size": 5105,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/ObstacleSpawner.cs"
+  },
+  {
+    "name": "RunnerController.cs",
+    "size": 1784,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/RunnerController.cs"
+  },
+  {
+    "name": "SwipeInput.cs",
+    "size": 2293,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/SwipeInput.cs"
+  },
+  {
+    "name": "UIManager.cs",
+    "size": 3320,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Assets/Scripts/UIManager.cs"
+  },
+  {
+    "name": "manifest.json",
+    "size": 1682,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/Packages/manifest.json"
+  },
+  {
+    "name": "ProjectVersion.txt",
+    "size": 84,
+    "fullPath": "E:/palak modi project/IndianRunnerUnity/ProjectSettings/ProjectVersion.txt"
+  },
+  {
+    "name": "settings.json",
+    "size": 42,
+    "fullPath": "E:/palak modi project/system-input-project/.vscode/settings.json"
+  },
+  {
+    "name": "system.css",
+    "size": 6019,
+    "fullPath": "E:/palak modi project/system-input-project/assets/css/system.css"
+  },
+  {
+    "name": "firebase.js",
+    "size": 974,
+    "fullPath": "E:/palak modi project/system-input-project/assets/js/firebase.js"
+  },
+  {
+    "name": "system-input.js",
+    "size": 4152,
+    "fullPath": "E:/palak modi project/system-input-project/assets/js/system-input.js"
+  },
+  {
+    "name": "system-view.js",
+    "size": 3979,
+    "fullPath": "E:/palak modi project/system-input-project/assets/js/system-view.js"
+  },
+  {
+    "name": "index.html",
+    "size": 1936,
+    "fullPath": "E:/palak modi project/system-input-project/index.html"
+  },
+  {
+    "name": "page-system-input.php",
+    "size": 1122,
+    "fullPath": "E:/palak modi project/system-input-project/page-system-input.php"
+  },
+  {
+    "name": "test.exe",
+    "size": 136515,
+    "fullPath": "E:/palak modi project/test.exe"
+  }
+]

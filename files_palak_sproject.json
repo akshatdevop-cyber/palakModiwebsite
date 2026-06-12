@@ -1,0 +1,557 @@
+[
+  {
+    "name": "settings.json",
+    "size": 42,
+    "fullPath": "E:/palak'sproject/.vscode/settings.json"
+  },
+  {
+    "name": ".gitignore",
+    "size": 277,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/.gitignore"
+  },
+  {
+    "name": "bun.lock",
+    "size": 162284,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/bun.lock"
+  },
+  {
+    "name": "bun.lockb",
+    "size": 246885,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/bun.lockb"
+  },
+  {
+    "name": "components.json",
+    "size": 434,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/components.json"
+  },
+  {
+    "name": "eslint.config.js",
+    "size": 791,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/eslint.config.js"
+  },
+  {
+    "name": "index.html",
+    "size": 6573,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/index.html"
+  },
+  {
+    "name": "main.js",
+    "size": 635,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/main.js"
+  },
+  {
+    "name": "package-lock.json",
+    "size": 245049,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/package-lock.json"
+  },
+  {
+    "name": "package.json",
+    "size": 3061,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/package.json"
+  },
+  {
+    "name": "playwright-fixture.ts",
+    "size": 171,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/playwright-fixture.ts"
+  },
+  {
+    "name": "playwright.config.ts",
+    "size": 287,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/playwright.config.ts"
+  },
+  {
+    "name": "postcss.config.js",
+    "size": 87,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/postcss.config.js"
+  },
+  {
+    "name": "favicon.ico",
+    "size": 20373,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/public/favicon.ico"
+  },
+  {
+    "name": "placeholder.svg",
+    "size": 28665,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/public/placeholder.svg"
+  },
+  {
+    "name": "robots.txt",
+    "size": 174,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/public/robots.txt"
+  },
+  {
+    "name": "README.md",
+    "size": 71,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/README.md"
+  },
+  {
+    "name": "App.css",
+    "size": 648,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/App.css"
+  },
+  {
+    "name": "App.tsx",
+    "size": 1200,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/App.tsx"
+  },
+  {
+    "name": "artist-portrait.jpg",
+    "size": 100284,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/artist-portrait.jpg"
+  },
+  {
+    "name": "work-404-1.jpg",
+    "size": 176073,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-404-1.jpg"
+  },
+  {
+    "name": "work-404-2.jpg",
+    "size": 204805,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-404-2.jpg"
+  },
+  {
+    "name": "work-404-3.jpg",
+    "size": 193574,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-404-3.jpg"
+  },
+  {
+    "name": "work-404-4.jpg",
+    "size": 247404,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-404-4.jpg"
+  },
+  {
+    "name": "work-404-5.jpg",
+    "size": 116901,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-404-5.jpg"
+  },
+  {
+    "name": "work-404-6.jpg",
+    "size": 225134,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-404-6.jpg"
+  },
+  {
+    "name": "work-404-7.jpg",
+    "size": 176892,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-404-7.jpg"
+  },
+  {
+    "name": "work-shard-1.jpg",
+    "size": 275794,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-shard-1.jpg"
+  },
+  {
+    "name": "work-shard-2.jpg",
+    "size": 510840,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-shard-2.jpg"
+  },
+  {
+    "name": "work-shard-3.jpg",
+    "size": 217919,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-shard-3.jpg"
+  },
+  {
+    "name": "work-shard-4.jpg",
+    "size": 103586,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-shard-4.jpg"
+  },
+  {
+    "name": "work-shard-5.jpg",
+    "size": 165954,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-shard-5.jpg"
+  },
+  {
+    "name": "work-shard-6.jpg",
+    "size": 347744,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-shard-6.jpg"
+  },
+  {
+    "name": "work-shard-7.jpg",
+    "size": 139260,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-shard-7.jpg"
+  },
+  {
+    "name": "work-shard-8.jpg",
+    "size": 218446,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/assets/work-shard-8.jpg"
+  },
+  {
+    "name": "Footer.tsx",
+    "size": 1361,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/Footer.tsx"
+  },
+  {
+    "name": "Navbar.tsx",
+    "size": 3816,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/Navbar.tsx"
+  },
+  {
+    "name": "NavLink.tsx",
+    "size": 779,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/NavLink.tsx"
+  },
+  {
+    "name": "PageTransition.tsx",
+    "size": 513,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/PageTransition.tsx"
+  },
+  {
+    "name": "ScrollReveal.tsx",
+    "size": 3253,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ScrollReveal.tsx"
+  },
+  {
+    "name": "accordion.tsx",
+    "size": 2028,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/accordion.tsx"
+  },
+  {
+    "name": "alert-dialog.tsx",
+    "size": 4417,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/alert-dialog.tsx"
+  },
+  {
+    "name": "alert.tsx",
+    "size": 1589,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/alert.tsx"
+  },
+  {
+    "name": "aspect-ratio.tsx",
+    "size": 148,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/aspect-ratio.tsx"
+  },
+  {
+    "name": "avatar.tsx",
+    "size": 1403,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/avatar.tsx"
+  },
+  {
+    "name": "badge.tsx",
+    "size": 1118,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/badge.tsx"
+  },
+  {
+    "name": "breadcrumb.tsx",
+    "size": 2777,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/breadcrumb.tsx"
+  },
+  {
+    "name": "button.tsx",
+    "size": 1887,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/button.tsx"
+  },
+  {
+    "name": "calendar.tsx",
+    "size": 2617,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/calendar.tsx"
+  },
+  {
+    "name": "card.tsx",
+    "size": 1828,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/card.tsx"
+  },
+  {
+    "name": "carousel.tsx",
+    "size": 6473,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/carousel.tsx"
+  },
+  {
+    "name": "chart.tsx",
+    "size": 10290,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/chart.tsx"
+  },
+  {
+    "name": "checkbox.tsx",
+    "size": 1079,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/checkbox.tsx"
+  },
+  {
+    "name": "collapsible.tsx",
+    "size": 329,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/collapsible.tsx"
+  },
+  {
+    "name": "command.tsx",
+    "size": 4953,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/command.tsx"
+  },
+  {
+    "name": "context-menu.tsx",
+    "size": 7369,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/context-menu.tsx"
+  },
+  {
+    "name": "dialog.tsx",
+    "size": 3856,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/dialog.tsx"
+  },
+  {
+    "name": "drawer.tsx",
+    "size": 3028,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/drawer.tsx"
+  },
+  {
+    "name": "dropdown-menu.tsx",
+    "size": 7439,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/dropdown-menu.tsx"
+  },
+  {
+    "name": "form.tsx",
+    "size": 4143,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/form.tsx"
+  },
+  {
+    "name": "hover-card.tsx",
+    "size": 1220,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/hover-card.tsx"
+  },
+  {
+    "name": "input-otp.tsx",
+    "size": 2227,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/input-otp.tsx"
+  },
+  {
+    "name": "input.tsx",
+    "size": 821,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/input.tsx"
+  },
+  {
+    "name": "label.tsx",
+    "size": 713,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/label.tsx"
+  },
+  {
+    "name": "menubar.tsx",
+    "size": 8070,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/menubar.tsx"
+  },
+  {
+    "name": "navigation-menu.tsx",
+    "size": 5150,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/navigation-menu.tsx"
+  },
+  {
+    "name": "pagination.tsx",
+    "size": 2764,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/pagination.tsx"
+  },
+  {
+    "name": "popover.tsx",
+    "size": 1268,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/popover.tsx"
+  },
+  {
+    "name": "progress.tsx",
+    "size": 788,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/progress.tsx"
+  },
+  {
+    "name": "radio-group.tsx",
+    "size": 1483,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/radio-group.tsx"
+  },
+  {
+    "name": "resizable.tsx",
+    "size": 1733,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/resizable.tsx"
+  },
+  {
+    "name": "scroll-area.tsx",
+    "size": 1646,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/scroll-area.tsx"
+  },
+  {
+    "name": "select.tsx",
+    "size": 5718,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/select.tsx"
+  },
+  {
+    "name": "separator.tsx",
+    "size": 718,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/separator.tsx"
+  },
+  {
+    "name": "sheet.tsx",
+    "size": 4304,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/sheet.tsx"
+  },
+  {
+    "name": "sidebar.tsx",
+    "size": 23474,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/sidebar.tsx"
+  },
+  {
+    "name": "skeleton.tsx",
+    "size": 241,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/skeleton.tsx"
+  },
+  {
+    "name": "slider.tsx",
+    "size": 1088,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/slider.tsx"
+  },
+  {
+    "name": "sonner.tsx",
+    "size": 904,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/sonner.tsx"
+  },
+  {
+    "name": "switch.tsx",
+    "size": 1174,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/switch.tsx"
+  },
+  {
+    "name": "table.tsx",
+    "size": 2766,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/table.tsx"
+  },
+  {
+    "name": "tabs.tsx",
+    "size": 1950,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/tabs.tsx"
+  },
+  {
+    "name": "textarea.tsx",
+    "size": 772,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/textarea.tsx"
+  },
+  {
+    "name": "toast.tsx",
+    "size": 4909,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/toast.tsx"
+  },
+  {
+    "name": "toaster.tsx",
+    "size": 754,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/toaster.tsx"
+  },
+  {
+    "name": "toggle-group.tsx",
+    "size": 1763,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/toggle-group.tsx"
+  },
+  {
+    "name": "toggle.tsx",
+    "size": 1453,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/toggle.tsx"
+  },
+  {
+    "name": "tooltip.tsx",
+    "size": 1183,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/tooltip.tsx"
+  },
+  {
+    "name": "use-toast.ts",
+    "size": 85,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/components/ui/use-toast.ts"
+  },
+  {
+    "name": "projects.ts",
+    "size": 7569,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/data/projects.ts"
+  },
+  {
+    "name": "use-mobile.tsx",
+    "size": 595,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/hooks/use-mobile.tsx"
+  },
+  {
+    "name": "use-toast.ts",
+    "size": 4121,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/hooks/use-toast.ts"
+  },
+  {
+    "name": "index.css",
+    "size": 1809,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/index.css"
+  },
+  {
+    "name": "utils.ts",
+    "size": 175,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/lib/utils.ts"
+  },
+  {
+    "name": "main.tsx",
+    "size": 166,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/main.tsx"
+  },
+  {
+    "name": "About.tsx",
+    "size": 3459,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/pages/About.tsx"
+  },
+  {
+    "name": "Contact.tsx",
+    "size": 2647,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/pages/Contact.tsx"
+  },
+  {
+    "name": "Index.tsx",
+    "size": 8488,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/pages/Index.tsx"
+  },
+  {
+    "name": "NotFound.tsx",
+    "size": 751,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/pages/NotFound.tsx"
+  },
+  {
+    "name": "ProjectDetail.tsx",
+    "size": 10156,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/pages/ProjectDetail.tsx"
+  },
+  {
+    "name": "Work.tsx",
+    "size": 2735,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/pages/Work.tsx"
+  },
+  {
+    "name": "example.test.ts",
+    "size": 150,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/test/example.test.ts"
+  },
+  {
+    "name": "setup.ts",
+    "size": 368,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/test/setup.ts"
+  },
+  {
+    "name": "vite-env.d.ts",
+    "size": 39,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/src/vite-env.d.ts"
+  },
+  {
+    "name": "style.css",
+    "size": 203,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/style.css"
+  },
+  {
+    "name": "tailwind.config.ts",
+    "size": 2916,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/tailwind.config.ts"
+  },
+  {
+    "name": "tsconfig.app.json",
+    "size": 714,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/tsconfig.app.json"
+  },
+  {
+    "name": "tsconfig.json",
+    "size": 419,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/tsconfig.json"
+  },
+  {
+    "name": "tsconfig.node.json",
+    "size": 503,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/tsconfig.node.json"
+  },
+  {
+    "name": "vite.config.ts",
+    "size": 598,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/vite.config.ts"
+  },
+  {
+    "name": "vitest.config.ts",
+    "size": 411,
+    "fullPath": "E:/palak'sproject/palakmodi-digital-gallery/vitest.config.ts"
+  }
+]
