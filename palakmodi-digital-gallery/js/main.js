@@ -158,8 +158,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const lightboxImageWrapper = document.createElement('div');
     lightboxImageWrapper.className = 'lightbox-image-wrapper';
+    lightboxImageWrapper.style.overflow = 'hidden'; // clip slide animation
     const lightboxImg = document.createElement('img');
-    lightboxImg.style.transition = 'opacity 0.35s cubic-bezier(0.16,1,0.3,1), transform 0.6s cubic-bezier(0.16,1,0.3,1)';
+    lightboxImg.style.willChange = 'transform, opacity';
     lightboxImageWrapper.appendChild(lightboxImg);
 
     lightboxContent.appendChild(lightboxInfo);
@@ -204,8 +205,8 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.addEventListener('mouseout',  () => { btn.style.color = 'rgba(255,255,255,0.45)'; btn.style.transform = 'translateY(-50%) scale(1)'; });
     });
 
-    prevBtn.addEventListener('click', e => { e.stopPropagation(); navigateTo(currentIdx - 1); });
-    nextBtn.addEventListener('click', e => { e.stopPropagation(); navigateTo(currentIdx + 1); });
+    prevBtn.addEventListener('click', e => { e.stopPropagation(); navigateTo(currentIdx - 1, -1); });
+    nextBtn.addEventListener('click', e => { e.stopPropagation(); navigateTo(currentIdx + 1, +1); });
 
     lightbox.appendChild(prevBtn);
     lightbox.appendChild(nextBtn);
@@ -241,38 +242,72 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     };
 
+    // ── Directional slide-and-fade transition ──────────────────────────────
+    let lastNavDir = 1; // +1 = forward (→), -1 = backward (←)
+    let isAnimating = false;
+
+    const SLIDE_DURATION = 380; // ms
+    const EASE = 'cubic-bezier(0.4, 0, 0.2, 1)';
+
+    const applyTransition = (el, props) => {
+      el.style.transition = Object.keys(props).map(p => `${p} ${SLIDE_DURATION}ms ${EASE}`).join(',');
+      Object.assign(el.style, props);
+    };
+
     const showImage = (idx, instant = false) => {
       const entry = galleryList[idx];
       if (!entry) return;
 
       if (instant) {
+        lightboxImg.style.transition = 'none';
+        lightboxImg.style.opacity   = '1';
+        lightboxImg.style.transform = 'translateX(0) scale(1)';
         lightboxImg.src = entry.src;
         lightboxTitle.textContent = entry.title;
         lightboxDesc.textContent  = entry.desc;
         updateInfoLayout(entry);
         updateCounter();
+        preloadAdjacent(idx);
         return;
       }
 
-      // Crossfade: fade out → swap src → fade in
-      lightboxImg.style.opacity   = '0';
-      lightboxImg.style.transform = 'scale(0.97)';
+      if (isAnimating) return; // debounce rapid clicks
+      isAnimating = true;
+
+      const dir    = lastNavDir;          // +1 forward, -1 backward
+      const exitTo = dir > 0 ? '-40%' : '40%';   // old image exits this way
+      const enterFrom = dir > 0 ? '40%' : '-40%'; // new image enters from here
+
+      // 1. Slide + fade old image out
+      applyTransition(lightboxImg, {
+        opacity:   '0',
+        transform: `translateX(${exitTo}) scale(0.94)`,
+      });
 
       setTimeout(() => {
+        // 2. Snap new image into enter position (no transition)
+        lightboxImg.style.transition = 'none';
+        lightboxImg.style.opacity    = '0';
+        lightboxImg.style.transform  = `translateX(${enterFrom}) scale(0.94)`;
         lightboxImg.src = entry.src;
         lightboxTitle.textContent = entry.title;
         lightboxDesc.textContent  = entry.desc;
         updateInfoLayout(entry);
         updateCounter();
 
-        // Trigger reflow then fade back in
-        requestAnimationFrame(() => {
-          lightboxImg.style.opacity   = '1';
-          lightboxImg.style.transform = 'scale(1)';
-        });
-      }, 200);
+        // 3. Force reflow so the browser registers the starting state
+        void lightboxImg.offsetWidth;
 
-      preloadAdjacent(idx);
+        // 4. Slide + fade new image in
+        applyTransition(lightboxImg, {
+          opacity:   '1',
+          transform: 'translateX(0) scale(1)',
+        });
+
+        preloadAdjacent(idx);
+
+        setTimeout(() => { isAnimating = false; }, SLIDE_DURATION);
+      }, SLIDE_DURATION * 0.6); // start swap before exit fully completes = snappier
     };
 
     const updateInfoLayout = entry => {
@@ -285,10 +320,19 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     };
 
-    // Circular navigation
-    const navigateTo = idx => {
+    // Circular navigation — track direction so animation knows which way to slide
+    const navigateTo = (idx, dir) => {
       const n = galleryList.length;
-      currentIdx = ((idx % n) + n) % n;
+      const next = ((idx % n) + n) % n;
+      // Infer direction if not explicitly provided (keyboard / swipe)
+      if (dir === undefined) {
+        // shortest path direction
+        const raw = idx - currentIdx;
+        lastNavDir = raw === 0 ? 1 : (Math.abs(raw) <= n / 2 ? Math.sign(raw) : -Math.sign(raw));
+      } else {
+        lastNavDir = dir;
+      }
+      currentIdx = next;
       showImage(currentIdx);
     };
 
@@ -351,8 +395,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener('keydown', e => {
       if (!lightbox.classList.contains('active')) return;
       if (e.key === 'Escape')     { closeLightbox(); }
-      if (e.key === 'ArrowLeft')  { e.preventDefault(); navigateTo(currentIdx - 1); }
-      if (e.key === 'ArrowRight') { e.preventDefault(); navigateTo(currentIdx + 1); }
+      if (e.key === 'ArrowLeft')  { e.preventDefault(); navigateTo(currentIdx - 1, -1); }
+      if (e.key === 'ArrowRight') { e.preventDefault(); navigateTo(currentIdx + 1, +1); }
     });
 
     // Touch / swipe
@@ -369,7 +413,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const dy = e.changedTouches[0].clientY - touchStartY;
       // Only fire if horizontal swipe is dominant and large enough
       if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.5) {
-        dx < 0 ? navigateTo(currentIdx + 1) : navigateTo(currentIdx - 1);
+        dx < 0 ? navigateTo(currentIdx + 1, +1) : navigateTo(currentIdx - 1, -1);
       }
     }, { passive: true });
   };
