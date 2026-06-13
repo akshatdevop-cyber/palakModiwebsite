@@ -706,14 +706,14 @@
         }, 200);
       }
 
-      // Navigation buttons
+      // Navigation buttons — circular
       prevBtn.addEventListener('click', function (e) {
         e.stopPropagation();
-        if (currentIndex > 0) scrollToImage(currentIndex - 1);
+        scrollToImage((currentIndex - 1 + totalImages) % totalImages);
       });
       nextBtn.addEventListener('click', function (e) {
         e.stopPropagation();
-        if (currentIndex < totalImages - 1) scrollToImage(currentIndex + 1);
+        scrollToImage((currentIndex + 1) % totalImages);
       });
 
       // Card click handlers
@@ -742,12 +742,12 @@
         });
       }
 
-      // Keyboard: Escape, Left, Right
+      // Keyboard: Escape, Left, Right — circular
       document.addEventListener('keydown', function (e) {
         if (modal.style.pointerEvents !== 'auto') return;
         if (e.key === 'Escape') closeModal();
-        if (e.key === 'ArrowLeft' && currentIndex > 0) { e.preventDefault(); scrollToImage(currentIndex - 1); }
-        if (e.key === 'ArrowRight' && currentIndex < totalImages - 1) { e.preventDefault(); scrollToImage(currentIndex + 1); }
+        if (e.key === 'ArrowLeft')  { e.preventDefault(); scrollToImage((currentIndex - 1 + totalImages) % totalImages); }
+        if (e.key === 'ArrowRight') { e.preventDefault(); scrollToImage((currentIndex + 1) % totalImages); }
       });
     })();
   </script>

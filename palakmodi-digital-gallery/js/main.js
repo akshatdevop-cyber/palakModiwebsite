@@ -138,107 +138,240 @@ document.addEventListener("DOMContentLoaded", () => {
      PREMIUM LIGHTBOX (Grid Images)
      ═══════════════════════════════════ */
   const initLightbox = () => {
-    // Create global lightbox DOM elements with split layout
+    // ── State ──────────────────────────────────────────────────────────────
+    let galleryList = [];   // array of { src, title, desc } for current tab
+    let currentIdx  = 0;
+
+    // ── Build DOM ──────────────────────────────────────────────────────────
     const lightbox = document.createElement('div');
     lightbox.className = 'gallery-lightbox';
-    
+
     const lightboxContent = document.createElement('div');
     lightboxContent.className = 'lightbox-content';
-    
+
     const lightboxInfo = document.createElement('div');
     lightboxInfo.className = 'lightbox-info';
-    
     const lightboxTitle = document.createElement('h3');
-    const lightboxDesc = document.createElement('p');
-    
+    const lightboxDesc  = document.createElement('p');
     lightboxInfo.appendChild(lightboxTitle);
     lightboxInfo.appendChild(lightboxDesc);
-    
+
     const lightboxImageWrapper = document.createElement('div');
     lightboxImageWrapper.className = 'lightbox-image-wrapper';
-    
     const lightboxImg = document.createElement('img');
+    lightboxImg.style.transition = 'opacity 0.35s cubic-bezier(0.16,1,0.3,1), transform 0.6s cubic-bezier(0.16,1,0.3,1)';
     lightboxImageWrapper.appendChild(lightboxImg);
-    
+
     lightboxContent.appendChild(lightboxInfo);
     lightboxContent.appendChild(lightboxImageWrapper);
-    
     lightbox.appendChild(lightboxContent);
-    
-    // Close button for mobile and desktop clarity
+
+    // ── Close button ───────────────────────────────────────────────────────
     const lightboxClose = document.createElement('button');
     lightboxClose.className = 'lightbox-close';
+    lightboxClose.setAttribute('aria-label', 'Close lightbox');
     lightboxClose.innerHTML = '&times;';
     lightboxClose.style.cssText = 'position:absolute;top:1rem;right:1.5rem;background:none;border:none;color:rgba(255,255,255,0.6);font-size:2.5rem;cursor:pointer;z-index:100000;transition:color 0.3s,transform 0.3s;line-height:1;outline:none;';
     lightboxClose.addEventListener('mouseover', () => { lightboxClose.style.color = '#fff'; lightboxClose.style.transform = 'scale(1.1)'; });
-    lightboxClose.addEventListener('mouseout', () => { lightboxClose.style.color = 'rgba(255,255,255,0.6)'; lightboxClose.style.transform = 'scale(1)'; });
-    lightboxClose.addEventListener('click', (e) => { e.stopPropagation(); closeLightbox(); });
+    lightboxClose.addEventListener('mouseout',  () => { lightboxClose.style.color = 'rgba(255,255,255,0.6)'; lightboxClose.style.transform = 'scale(1)'; });
+    lightboxClose.addEventListener('click', e => { e.stopPropagation(); closeLightbox(); });
     lightbox.appendChild(lightboxClose);
 
+    // ── Prev / Next arrow buttons ──────────────────────────────────────────
+    const arrowCSS = `
+      position:absolute;top:50%;transform:translateY(-50%);
+      background:none;border:none;cursor:pointer;
+      color:rgba(255,255,255,0.45);
+      font-size:2rem;line-height:1;
+      padding:0.75rem 1.1rem;
+      transition:color 0.25s,transform 0.25s;
+      z-index:100000;outline:none;
+      user-select:none;-webkit-user-select:none;
+    `;
+
+    const prevBtn = document.createElement('button');
+    prevBtn.setAttribute('aria-label', 'Previous image');
+    prevBtn.innerHTML = '&#8592;';   // ←
+    prevBtn.style.cssText = arrowCSS + 'left:0.5rem;';
+
+    const nextBtn = document.createElement('button');
+    nextBtn.setAttribute('aria-label', 'Next image');
+    nextBtn.innerHTML = '&#8594;';   // →
+    nextBtn.style.cssText = arrowCSS + 'right:0.5rem;';
+
+    [prevBtn, nextBtn].forEach(btn => {
+      btn.addEventListener('mouseover', () => { btn.style.color = '#fff'; btn.style.transform = 'translateY(-50%) scale(1.15)'; });
+      btn.addEventListener('mouseout',  () => { btn.style.color = 'rgba(255,255,255,0.45)'; btn.style.transform = 'translateY(-50%) scale(1)'; });
+    });
+
+    prevBtn.addEventListener('click', e => { e.stopPropagation(); navigateTo(currentIdx - 1); });
+    nextBtn.addEventListener('click', e => { e.stopPropagation(); navigateTo(currentIdx + 1); });
+
+    lightbox.appendChild(prevBtn);
+    lightbox.appendChild(nextBtn);
+
+    // ── Image counter ──────────────────────────────────────────────────────
+    const counter = document.createElement('div');
+    counter.style.cssText = `
+      position:absolute;bottom:1.25rem;left:50%;transform:translateX(-50%);
+      color:rgba(255,255,255,0.45);
+      font-family:'Inter',sans-serif;font-size:0.7rem;letter-spacing:0.2em;
+      text-transform:uppercase;white-space:nowrap;
+      pointer-events:none;z-index:100000;
+      transition:opacity 0.3s;
+    `;
+    lightbox.appendChild(counter);
+
     document.body.appendChild(lightbox);
+
+    // ── Helpers ────────────────────────────────────────────────────────────
+    const updateCounter = () => {
+      const n = galleryList.length;
+      counter.textContent = n > 1 ? `${currentIdx + 1} / ${n}` : '';
+      prevBtn.style.opacity = n > 1 ? '1' : '0';
+      nextBtn.style.opacity = n > 1 ? '1' : '0';
+    };
+
+    const preloadAdjacent = idx => {
+      const n = galleryList.length;
+      [-1, 1].forEach(d => {
+        const i = (idx + d + n) % n;
+        const img = new Image();
+        img.src = galleryList[i].src;
+      });
+    };
+
+    const showImage = (idx, instant = false) => {
+      const entry = galleryList[idx];
+      if (!entry) return;
+
+      if (instant) {
+        lightboxImg.src = entry.src;
+        lightboxTitle.textContent = entry.title;
+        lightboxDesc.textContent  = entry.desc;
+        updateInfoLayout(entry);
+        updateCounter();
+        return;
+      }
+
+      // Crossfade: fade out → swap src → fade in
+      lightboxImg.style.opacity   = '0';
+      lightboxImg.style.transform = 'scale(0.97)';
+
+      setTimeout(() => {
+        lightboxImg.src = entry.src;
+        lightboxTitle.textContent = entry.title;
+        lightboxDesc.textContent  = entry.desc;
+        updateInfoLayout(entry);
+        updateCounter();
+
+        // Trigger reflow then fade back in
+        requestAnimationFrame(() => {
+          lightboxImg.style.opacity   = '1';
+          lightboxImg.style.transform = 'scale(1)';
+        });
+      }, 200);
+
+      preloadAdjacent(idx);
+    };
+
+    const updateInfoLayout = entry => {
+      if (!entry.title && !entry.desc) {
+        lightboxInfo.style.display = 'none';
+        lightboxImageWrapper.style.flex = '0 0 100%';
+      } else {
+        lightboxInfo.style.display = '';
+        lightboxImageWrapper.style.flex = '';
+      }
+    };
+
+    // Circular navigation
+    const navigateTo = idx => {
+      const n = galleryList.length;
+      currentIdx = ((idx % n) + n) % n;
+      showImage(currentIdx);
+    };
+
+    const openLightbox = (images, startIdx) => {
+      galleryList = images;
+      currentIdx  = startIdx;
+      showImage(currentIdx, true /* instant on first open */);
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      preloadAdjacent(currentIdx);
+    };
 
     const closeLightbox = () => {
       lightbox.classList.remove('active');
       document.body.style.overflow = '';
-      
-      // Wait for out-animation before clearing the image source
       setTimeout(() => {
         if (!lightbox.classList.contains('active')) {
           lightboxImg.src = '';
           lightboxTitle.textContent = '';
-          lightboxDesc.textContent = '';
+          lightboxDesc.textContent  = '';
           lightboxInfo.style.display = '';
           lightboxImageWrapper.style.flex = '';
+          galleryList = [];
         }
       }, 500);
     };
 
-    // Target all images in the project tab views (exclude collage cards)
-    const galleryImages = document.querySelectorAll('.tab-content img');
-    
-    galleryImages.forEach(img => {
-      // Skip images inside collage cards or with data-no-lightbox
-      if (img.closest('.collage-card') || img.hasAttribute('data-no-lightbox')) return;
+    // ── Wire up grid images ────────────────────────────────────────────────
+    // Build per-tab image arrays so clicking any image opens its own set
+    const tabContents = document.querySelectorAll('.tab-content');
 
-      // Prevent ugly default drag behaviour on images
-      img.addEventListener('dragstart', e => e.preventDefault());
-      
-      img.addEventListener('click', () => {
-        lightboxImg.src = img.getAttribute('data-large') || img.src;
-        
-        const titleText = img.getAttribute('data-title') || '';
-        const descText = img.getAttribute('data-desc') || '';
-        
-        lightboxTitle.textContent = titleText;
-        lightboxDesc.textContent = descText;
-        
-        if (!titleText && !descText) {
-          lightboxInfo.style.display = 'none';
-          lightboxImageWrapper.style.flex = '0 0 100%';
-        } else {
-          lightboxInfo.style.display = '';
-          lightboxImageWrapper.style.flex = '';
-        }
-        
-        lightbox.classList.add('active');
-        // Prevent background scrolling while modal is open
-        document.body.style.overflow = 'hidden'; 
+    tabContents.forEach(tab => {
+      // Collect eligible images within this tab
+      const eligible = [...tab.querySelectorAll('img')].filter(
+        img => !img.closest('.collage-card') && !img.hasAttribute('data-no-lightbox')
+      );
+
+      const images = eligible.map(img => ({
+        src:   img.getAttribute('data-large') || img.src,
+        title: img.getAttribute('data-title') || '',
+        desc:  img.getAttribute('data-desc')  || '',
+      }));
+
+      eligible.forEach((img, i) => {
+        img.addEventListener('dragstart', e => e.preventDefault());
+        img.addEventListener('click', () => openLightbox(images, i));
       });
     });
 
-    // Close on click outside the image and description (improves mobile UX)
-    lightbox.addEventListener('click', (e) => {
-      if (e.target !== lightboxImg && !lightboxInfo.contains(e.target)) {
+    // ── Interactions ───────────────────────────────────────────────────────
+    // Close on backdrop click (not on image or info)
+    lightbox.addEventListener('click', e => {
+      const clickedNav = e.target.closest('button');
+      if (!clickedNav && e.target !== lightboxImg && !lightboxInfo.contains(e.target)) {
         closeLightbox();
       }
     });
 
-    // Close on Escape key press
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && lightbox.classList.contains('active')) {
-        closeLightbox();
-      }
+    // Keyboard
+    document.addEventListener('keydown', e => {
+      if (!lightbox.classList.contains('active')) return;
+      if (e.key === 'Escape')     { closeLightbox(); }
+      if (e.key === 'ArrowLeft')  { e.preventDefault(); navigateTo(currentIdx - 1); }
+      if (e.key === 'ArrowRight') { e.preventDefault(); navigateTo(currentIdx + 1); }
     });
+
+    // Touch / swipe
+    let touchStartX = 0;
+    let touchStartY = 0;
+    lightbox.addEventListener('touchstart', e => {
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }, { passive: true });
+
+    lightbox.addEventListener('touchend', e => {
+      if (!lightbox.classList.contains('active')) return;
+      const dx = e.changedTouches[0].clientX - touchStartX;
+      const dy = e.changedTouches[0].clientY - touchStartY;
+      // Only fire if horizontal swipe is dominant and large enough
+      if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+        dx < 0 ? navigateTo(currentIdx + 1) : navigateTo(currentIdx - 1);
+      }
+    }, { passive: true });
   };
 
   initLightbox();
